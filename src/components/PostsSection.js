@@ -6,7 +6,7 @@ export default function PostsSection() {
     return (
         <section className="Post-section">
        
-            <h1>Here’s what others said:</h1>
+            <h1 className="post-header">Here’s what others said:</h1>
         
           
             <SimpleSlider 

@@ -14,7 +14,7 @@ export default function PostItem({ post }) {
     return (
        
        
-        <article>
+        <article className="post-content">
             <h3>{post.title && parse(post.title.rendered)}</h3>
             {post.content && parse(post.content.rendered)}
         </article>

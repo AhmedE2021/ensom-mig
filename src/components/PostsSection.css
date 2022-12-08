@@ -1,3 +1,15 @@
 .post-section{
-    color: black;
+    margin: 5% 15% 15% 5%;
+
+}
+
+.post-header{
+    text-align: center;
+    color: #000;
+}
+
+.post-content{
+    align-items: center;
+   border: #000 1px solid;
+   margin: 7%;
 }

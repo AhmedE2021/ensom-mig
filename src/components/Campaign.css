@@ -40,12 +40,7 @@ h2, h1 {
     text-shadow: 0 0 3px white;
 }
 
-.title {
-    display: block;
-    text-align: center;
-    padding: 10px;
-   
-}
+
 h2 {
     position: relative;
   top: 50%;

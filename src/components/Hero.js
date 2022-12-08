@@ -21,19 +21,26 @@ export default function Hero () {
     <div className='campaign-page NavSection'  id="hero">
 
 
-  <section>
+
+
+
+<div className='landing-section'>     
+<h1 className='landing-title'>TAL OM ENSOMHED</h1>
+<div className='expandmore' > <a href='#campaign-paragraph' > <ExpandMoreIcon style={{ color:'white', transition:'all 0.5s', fontSize:'100px', textShadow: '0 0 3px white'}}/> </a>
+</div>
+</div> 
+
+
+<section>
     <div className='campaign-text'>
-<h1 className='title'>Why don’t we talk about loneliness?</h1>
-<p className='campaign-paragraph'>Loneliness can affect anyone. The feeling can arise both when you are alone and with others.
+<p className='campaign-paragraph' id='campaign-paragraph'>Loneliness can affect anyone. The feeling can arise both when you are alone and with others.
 It can be when you are sitting alone at home on a Friday evening, or when you are at a family birthday or party with friends.
  Some rarely experience it, while others live with the feeling on a daily basis</p>
   </div>
   </section>
 
 
-<section className='expandmore' > <a href='#campaign_videos' > <ExpandMoreIcon style={{ color:'white', transition:'all 0.5s', fontSize:'100px'}}/> </a>
 
-</section>
 
 <section className='campaign-videos' id='campaign_videos'>
 npm install @mui/material @emotion/react @emotion/styled
