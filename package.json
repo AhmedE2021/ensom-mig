@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@fontsource/roboto": "^4.5.8",
     "@mui/icons-material": "^5.10.16",
     "@mui/material": "^5.10.17",
     "@mui/styled-engine-sc": "^5.10.16",
@@ -19,6 +20,7 @@
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
     "react-social-media-embed": "^2.2.9",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4",
     "workbox-background-sync": "^6.5.4",

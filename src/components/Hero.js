@@ -52,7 +52,7 @@ npm install @mui/material @emotion/react @emotion/styled
 <div className='campaign-video-text'>
 <h1>Isolation loneliness</h1>
 </div>
-<video width="750" height="400" playsInline poster={greencard}  controls >
+<video width="750" height="400" playsInline poster={greencard} controls >
         <source src={greenvideo} type="video/mp4"/>
 </video>
 </div>
