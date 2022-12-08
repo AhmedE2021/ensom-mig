@@ -5,6 +5,8 @@ import Hero from './components/Hero';
 import Infographics from './components/Infographics';
 import Initiatives from "./components/Initiatives"
 
+import Timeline8 from './components/TimeLineComp';
+
 
 
 
@@ -18,8 +20,8 @@ function App() {
  
 
       
-      <Hero/>  
-n
+      <Hero />  
+      <Timeline8 />
 
       
  
