@@ -1,0 +1,12 @@
+.infographics-section{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.info-count{
+    color: white;
+    text-shadow: 0 0 3px white;
+    font-size: 35px;
+}

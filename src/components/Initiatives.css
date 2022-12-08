@@ -1,0 +1,19 @@
+.initiatives-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 5% 0 5%;
+   height: 100vh;
+}
+
+.initiative-row{
+    border: 1px solid #000;
+   
+  
+}
+
+.initiatives-header{
+    color: #000;
+    text-align: center;
+    margin: 5%;
+  
+}
