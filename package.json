@@ -22,6 +22,7 @@
     "react-social-media-embed": "^2.2.9",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.6",
+    "vertical-timeline-forked": "^3.2.1",
     "web-vitals": "^2.1.4",
     "workbox-background-sync": "^6.5.4",
     "workbox-broadcast-update": "^6.5.4",

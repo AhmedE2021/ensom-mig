@@ -5,6 +5,8 @@ import Hero from './components/Hero';
 import PostsSection from './components/PostsSection';
 import Initiatives from "./components/Initiatives"
 
+import Timeline8 from './components/TimeLineComp';
+
 
 
 
@@ -18,7 +20,6 @@ function App() {
      
  
 
-<PostsSection/>
 
       
  
