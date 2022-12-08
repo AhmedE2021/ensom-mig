@@ -5,7 +5,7 @@ import Hero from './components/Hero';
 import PostsSection from './components/PostsSection';
 import Initiatives from "./components/Initiatives"
 
-import Timeline8 from './components/TimeLineComp';
+import TimeLineComp from './components/TimeLineComp';
 
 
 
@@ -19,8 +19,8 @@ function App() {
     <div className="App">
      
  
-
-
+<Hero/>
+<TimeLineComp/>
       
  
 

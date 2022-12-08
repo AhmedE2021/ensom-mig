@@ -20,6 +20,7 @@
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
     "react-social-media-embed": "^2.2.9",
+    "react-vertical-timeline-component": "^3.6.0",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.6",
     "vertical-timeline-forked": "^3.2.1",
