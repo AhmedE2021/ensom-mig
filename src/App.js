@@ -6,7 +6,7 @@ import PostsSection from './components/PostsSection';
 import Initiatives from "./components/Initiatives"
 import Insta from './components/Insta';
 import TimeLineComp from './components/TimeLineComp';
-
+import Footer from './components/Footer'
 
 
 
@@ -18,12 +18,12 @@ function App() {
   return (
     <div className="App">
      
- <Hero/>
-
+   <Hero/>
    <PostsSection/>
- <TimeLineComp/>
-<Insta/>
-
+   <TimeLineComp/>
+   <Initiatives/>
+   <Insta/>
+   <Footer/>
 
     </div>
   );

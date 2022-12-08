@@ -21,30 +21,26 @@ export default function Hero () {
     <div className='campaign-page NavSection'  id="hero">
 
 
+<div className='landing-section'> 
 
-
-
-<div className='landing-section'>     
 <h1 className='landing-title'>TAL OM ENSOMHED</h1>
+</div> 
 <div className='expandmore' > <a href='#campaign-paragraph' > <ExpandMoreIcon style={{ color:'white', transition:'all 0.5s', fontSize:'100px', textShadow: '0 0 3px white'}}/> </a>
 </div>
-</div> 
+   
 
-
-<section>
+<section id='campaign-paragraph'>
     <div className='campaign-text'>
-<p className='campaign-paragraph' id='campaign-paragraph'>Loneliness can affect anyone. The feeling can arise both when you are alone and with others.
-It can be when you are sitting alone at home on a Friday evening, or when you are at a family birthday or party with friends.
- Some rarely experience it, while others live with the feeling on a daily basis</p>
+<p className='campaign-paragraph' >Det kan være svært at finde modet til at fortælle ens kæreste, familiemedlem eller kollega, at man føler sig ensom. Det skyldes ofte, at man er bange for, at det er en følelse, man står alene med og derved kan virke skamfuldt at sige højt. Men måske er det slet ikke så unaturlig en følelse, som vi går og tror?
+</p>
   </div>
   </section>
 
 
 
+  <h1>Loneliness can look like</h1><br/><br/><br/>
 
 <section className='campaign-videos' id='campaign_videos'>
-npm install @mui/material @emotion/react @emotion/styled
-
 <div className='campaign-video'>
 <video width="750" height="400" playsInline poster='http://talomensomhed.dk/wp-content/uploads/2022/12/yellowcard.png'  controls >
         <source src='http://talomensomhed.dk/wp-content/uploads/2022/12/Yellow.mp4' type="video/mp4"/>

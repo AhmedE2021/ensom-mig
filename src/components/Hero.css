@@ -19,6 +19,7 @@
 .campaign-text{
     text-align: center;
    margin: 0 25% 15% 25%;
+  font-size: 35px;
   }
   
   .campaign-paragraph{
@@ -39,8 +40,8 @@
 }
 
 .expandmore{
-    margin-bottom: 15%;
-   
+margin-top: -6%;
+    
 }
 
 
@@ -55,6 +56,9 @@
     grid-column: 1;
 }
 
-
+.expandmore{
+    margin-top: -25%;
+        
+    }
 
 }
