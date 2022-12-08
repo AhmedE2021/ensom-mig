@@ -4,7 +4,7 @@ import './App.css';
 import Hero from './components/Hero';
 import PostsSection from './components/PostsSection';
 import Initiatives from "./components/Initiatives"
-
+import Insta from './components/Insta';
 import TimeLineComp from './components/TimeLineComp';
 
 
@@ -18,12 +18,11 @@ function App() {
   return (
     <div className="App">
      
- 
-<Hero/>
-<TimeLineComp/>
-      
- 
+ <Hero/>
 
+   <PostsSection/>
+ <TimeLineComp/>
+<Insta/>
 
 
     </div>

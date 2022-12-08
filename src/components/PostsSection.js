@@ -1,10 +1,10 @@
 import SimpleSlider from "./PostsSlider";
-
+import "./PostsSection.css"
 
 export default function PostsSection() {
 
     return (
-        <section className="page" id="work">
+        <section className="Post-section">
        
             <h1>Here’s what others said:</h1>
         
