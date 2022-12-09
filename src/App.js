@@ -7,6 +7,7 @@ import Initiatives from "./components/Initiatives"
 import Insta from './components/Insta';
 import TimeLineComp from './components/TimeLineComp';
 import Footer from './components/Footer'
+import Poll from './components/MultiplePoll'
 
 
 
@@ -19,11 +20,8 @@ function App() {
     <div className="App">
      
    <Hero/>
-   <PostsSection/>
-   <TimeLineComp/>
-   <Initiatives/>
-   <Insta/>
-   <Footer/>
+<Poll/>
+ 
 
     </div>
   );
