@@ -4,6 +4,7 @@ import './App.css';
 import Hero from './components/Hero';
 import PostsSection from './components/PostsSection';
 import Initiatives from "./components/Initiatives"
+import Homescreen from './components/Homescreen';
 
 import TimeLineComp from './components/TimeLineComp';
 
@@ -18,9 +19,9 @@ function App() {
   return (
     <div className="App">
      
- 
-<Hero/>
-<TimeLineComp/>
+    <Homescreen />
+    <Hero/>
+    <TimeLineComp/>
       
  
 

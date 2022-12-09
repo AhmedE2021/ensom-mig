@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Lato:wght@400;700&display=swap");
+/* font-family: 'La Belle Aurore', cursive;   */
+/* font-family: 'Lato', sans-serif; */
+.labelle{
+  font-family: 'La Belle Aurore', cursive;
+}
+.lato{
+  font-family: 'Lato', sans-serif; 
+}
+
+
+
 body {
   overflow-x: hidden;
 }
@@ -7,7 +19,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   transition: all .2s linear;
-
   /* border: 1px solid red; */
 }
 

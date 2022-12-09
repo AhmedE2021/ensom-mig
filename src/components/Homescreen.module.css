@@ -1,0 +1,20 @@
+.Homescreen {
+    /* background-color: red; */
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+}
+
+.talkAbout {
+    font-size: 3rem;
+}
+
+.loneliness {
+    font-size: 3rem;
+}
