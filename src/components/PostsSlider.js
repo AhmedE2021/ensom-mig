@@ -12,7 +12,7 @@ export default function SimpleSlider({ settings }) {
     const [posts, setPosts] = useState([]);
     useEffect(() => {
         async function getData() {
-            const response = await fetch("https://react-api.talomensomhed.dk/wp-json/wp/v2/posts?_embed");
+            const response = await fetch("https://quotes-api.talomensomhed.dk/wp-json/wp/v2/posts?_embed");
             const data = await response.json();
             setPosts(data);
         }

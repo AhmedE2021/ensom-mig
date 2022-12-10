@@ -20,8 +20,10 @@ function App() {
     <div className="App">
      
    <Hero/>
-<Poll/>
- 
+   <Poll/>
+  <TimeLineComp/>
+  <Initiatives/>
+ <PostsSection/>
 
     </div>
   );

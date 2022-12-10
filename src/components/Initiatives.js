@@ -2,89 +2,42 @@
 
 
 import * as React from 'react';
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
 
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import "./Initiatives.css"
-import Typography from '@mui/material/Typography';
+
+import { useEffect, useState } from "react";
+import InitiativeItem from './InitiativeItem';
+
 
 
 export default function Initiatives() {
+
+  
+  const [initiatives, setInitiatives] = useState([]);
+  useEffect(() => {
+      async function getData() {
+          const response = await fetch("https://quotes-api.talomensomhed.dk/wp-json/wp/v2/initiatives?_embed");
+          const data = await response.json();
+          setInitiatives(data);
+      }
+      getData();
+  }, []);
+
+
+
+    
+
+
+
   return (
     <div className="initiatives-section" id="initiatives" >
 <h1 className="initiatives-header" >
     Help and support are always available</h1>
            <div >
-      <Accordion className='initiative-row'>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography>First initiative</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-    
-
-      <Accordion className='initiative-row'>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography>Second initiative</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-
-      <Accordion className='initiative-row'>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography>Third initiative</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-    
-
-      <Accordion className='initiative-row'>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography>Fourth initiative</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-    
-    
      
+           {initiatives.map(initiative => (
+                    <InitiativeItem key={initiative.id} initiative={initiative} />
+                ))}
       </div>
     </div>
   );

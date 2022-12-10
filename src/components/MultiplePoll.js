@@ -27,10 +27,25 @@ function vote(item: Result, results: Result[]) {
 
 const Poll = () => {
   return (
-    <div
+    <div className='multi-poll'
       style={{
         margin: '300px auto',
-        width: '550px'
+        width:'350px',
+        responsive: [
+          {
+            breakpoint: 600,
+            settings: {
+              width:'400px'
+            }
+          },
+          {
+            breakpoint: 400,
+            settings: {
+              width:'350px'
+            }
+          },
+        ]
+      
       }}
     >
    
