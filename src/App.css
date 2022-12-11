@@ -12,6 +12,7 @@
 
 body {
   overflow-x: hidden;
+  background-color: black;
 }
 
 * {
@@ -20,15 +21,18 @@ body {
   box-sizing: border-box;
   transition: all .2s linear;
   /* border: 1px solid red; */
+
+  font-family: 'Lato', sans-serif; 
 }
+
 
 html{
   scroll-behavior: smooth;
 }
 
-h3 {
+/* h3 {
   padding-top: 0.25em;
-}
+} */
 
 .vertical-timeline-element-content {
   padding: 2em 3em !important;

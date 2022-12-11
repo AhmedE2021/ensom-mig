@@ -1,3 +1,5 @@
+/* Frontpage Hero ------------------------------------------- */
+
 .Homescreen {
     /* background-color: red; */
     width: 100vw;
@@ -9,12 +11,61 @@
     align-items: center;
 
     background-color: black;
+
+    
 }
 
 .talkAbout {
-    font-size: 3rem;
+    font-size: clamp(3rem, 10vw, 6rem);
+    color: white;
 }
 
 .loneliness {
-    font-size: 3rem;
+    font-size: clamp(3rem, 10vw, 6rem);
+    color: white;
+}
+
+/* Image with text ----------------------------------------*/
+
+.imgSection{
+    position: relative;
+    color: white;
+}
+
+.cityIMG{
+    width: 100%;
+    height: clamp(5rem, 40vh, 40rem);
+    object-fit: cover;
+}
+
+* {
+    border: 1px solid red;
+}
+
+.textContainer{
+    width: 50%;
+    max-width: 600px;
+
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+
+.textContainer h1{
+    font-size: clamp(3rem, 4vw, 4rem);
+}
+
+.textContainer p {
+    font-size: clamp(1.25rem, 2vw, 2rem);
+}
+
+
+
+
+
+
+@media screen and (min-width: 1600px) {
+    .textContainer{
+        left: 60%;
+    }
 }

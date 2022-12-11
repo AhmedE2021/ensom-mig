@@ -19,9 +19,9 @@ function App() {
   return (
     <div className="App">
      
-    <Homescreen />
-    <Hero/>
-    <TimeLineComp/>
+      <Homescreen />
+      <Hero/>
+      {/* <TimeLineComp/> */}
       
  
 
