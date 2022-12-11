@@ -14,7 +14,7 @@ export default function InitiativeItem({ initiative }) {
     return (
        
        
-        <article>
+        
            <Accordion className='initiative-row'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -30,7 +30,7 @@ export default function InitiativeItem({ initiative }) {
           </Typography>
         </AccordionDetails>
       </Accordion>
-        </article>
+ 
         
 
         

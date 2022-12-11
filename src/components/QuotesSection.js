@@ -1,12 +1,12 @@
-import SimpleSlider from "./PostsSlider";
-import "./PostsSection.css"
+import SimpleSlider from "./QuotesSlider";
+import "./QuotesSection.css"
 
-export default function PostsSection() {
+export default function QuotesSection() {
 
     return (
-        <section className="Post-section">
+        <section className="Quote-section">
        
-            <h1 className="post-header">Here’s what others said:</h1>
+            <h1 className="Quote-header">Here’s what others said:</h1>
         
           
             <SimpleSlider 

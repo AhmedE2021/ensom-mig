@@ -24,16 +24,16 @@ export default function Insta () {
 
 <div className="insta-videos">
 
- <div style={{ justifyContent: 'center',margin:'1%',width:'100%' }}>
-  <InstagramEmbed url="https://www.instagram.com/p/COpW2_-hBU1/?utm_source=ig_web_copy_link"  height={667} captioned />
+ <div style={{ justifyContent: 'center',margin:'1%',height:'100%' }}>
+  <InstagramEmbed url="https://www.instagram.com/p/COpW2_-hBU1/?utm_source=ig_web_copy_link"  height='91%' captioned />
 </div>
 
-<div style={{  justifyContent: 'center',margin:'1%',width:'100%' }}>
-  <InstagramEmbed url="https://www.instagram.com/p/CHC8eBFDiOb/?utm_source=ig_web_copy_link"  height={667} captioned />
+<div style={{  justifyContent: 'center',margin:'1%',height:'100%' }}>
+  <InstagramEmbed url="https://www.instagram.com/p/CHC8eBFDiOb/?utm_source=ig_web_copy_link"  height='91%' captioned />
 </div>
 
-<div style={{  justifyContent: 'center',margin:'1%',width:'100%' }}>
-  <InstagramEmbed url="https://www.instagram.com/p/CHn15DyDYqF/?utm_source=ig_web_copy_link" height={667} captioned />
+<div style={{  justifyContent: 'center',margin:'1%',height:'100%' }}>
+  <InstagramEmbed url="https://www.instagram.com/p/CHn15DyDYqF/?utm_source=ig_web_copy_link" height='91%' captioned />
 </div>
 
 </div>

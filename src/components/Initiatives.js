@@ -34,11 +34,10 @@ export default function Initiatives() {
 <h1 className="initiatives-header" >
     Help and support are always available</h1>
            <div >
-     
            {initiatives.map(initiative => (
                     <InitiativeItem key={initiative.id} initiative={initiative} />
                 ))}
-      </div>
+           </div>
     </div>
   );
 }  

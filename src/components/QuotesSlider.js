@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 import { useEffect, useState } from "react";
-import PostItem from "./PostItem";
+import QuoteItem from "./QuoteItem";
 
 export default function SimpleSlider({ settings }) {
     const [posts, setPosts] = useState([]);
@@ -22,7 +22,7 @@ export default function SimpleSlider({ settings }) {
         <section>
             <Slider {...settings}>
                 {posts.map(post => (
-                    <PostItem key={post.id} post={post} />
+                    <QuoteItem key={post.id} post={post} />
                 ))}
             </Slider>
         </section>
