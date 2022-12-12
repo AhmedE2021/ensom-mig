@@ -9,7 +9,9 @@ text-align: center;
 }
 
 .Quote-content{
-    align-items: center;
-   margin: 7%;
-   background-image: ;
+   align-items: center;
+   margin: 10%;
+   background-image: url(http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/1.png);
+   background-repeat: no-repeat;
+   margin: auto;
 }

@@ -21,16 +21,15 @@
     background-color: #FFF;
   }
   #contact-form button {
-    width: 25%;
-    padding: 10px;
+    width: 35%;
     border: 0;
     cursor: pointer;
-    background: #fca253;
+    background: #D9D9D9;
     font-weight: bold;
-    color: #FFF;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 15px;
     text-transform: uppercase;
+    padding: 2px;
   }
   #contact-form span {
     display: none;
