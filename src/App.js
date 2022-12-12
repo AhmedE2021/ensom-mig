@@ -9,7 +9,7 @@ import Homescreen from './components/Homescreen';
 import TimeLineComp from './components/TimeLineComp';
 import Footer from './components/Footer'
 import Poll from './components/MultiplePoll'
-import Campaign from './components/Campaign'
+
 import ContactForm from './components/ContactForm';
 
 
