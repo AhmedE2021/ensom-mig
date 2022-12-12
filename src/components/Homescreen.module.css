@@ -30,7 +30,8 @@
 .imgSection{
     position: relative;
     color: white;
-
+    background-color: black;
+    background-attachment: fixed;
 }
 
 .cityIMG{

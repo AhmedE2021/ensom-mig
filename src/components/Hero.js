@@ -16,60 +16,59 @@ import purplevideo from "../assets/Purple.mp4"
 
 
 export default function Hero () {
-  return (
-    <div className='campaign-page NavSection'  id="hero">
+return (
+          
+<div className='campaign-page NavSection'  id="hero">
 
-        {/* ICON FOR SCROLL */}
-        <div className='expandmore' > <a href='#campaign_videos' > <ExpandMoreIcon style={{ color:'white', transition:'all 0.5s', fontSize:'100px'}}/> </a>
-        </div>
+{/* ICON FOR SCROLL */}
+<div className='expandmore' > <a href='#campaign_videos' > <ExpandMoreIcon style={{ color:'white', transition:'all 0.5s', fontSize:'100px'}}/> </a>
+</div>
 
                   
-        <section className='campaign-videos' id='campaign_videos'>
-                <div className='campaign-video'>
+<section className='campaign-videos' id='campaign_videos'>
+        <div className='campaign-video'>
                 <video width="750" height="400" playsInline poster='http://talomensomhed.dk/wp-content/uploads/2022/12/yellowcard.png'  controls >
                         <source src='http://talomensomhed.dk/wp-content/uploads/2022/12/Yellow.mp4' type="video/mp4"/>
                 </video>
                 <div className='campaign-video-text'>
-                <h1>Mental loneliness</h1>
+                        <h1>Mental loneliness</h1>
                 </div>
-                </div>
+        </div>
 
 
-                <div className='campaign-video'>
+        <div className='campaign-video'>
                 <div className='campaign-video-text'>
-                <h1>Isolation loneliness</h1>
+                        <h1>Isolation loneliness</h1>
                 </div>
                 <video width="750" height="400" playsInline poster={greencard} controls >
                         <source src={greenvideo} type="video/mp4"/>
                 </video>
-                </div>
+        </div>
 
 
-                <div className='campaign-video'>
+        <div className='campaign-video'>
                 <video width="750" height="400" playsInline poster={purplecard}  controls >
                         <source src={purplevideo} type="video/mp4"/>
                 </video>
                 <div className='campaign-video-text'>
-                <h1>Mental loneliness</h1>
+                        <h1>Mental loneliness</h1>
                 </div> 
-                </div>
+        </div>
 
 
-                <div className='campaign-video'>
+        <div className='campaign-video'>
                 <div className='campaign-video-text'>
-                <h1>Mental loneliness</h1>
+                        <h1>Mental loneliness</h1>
                 </div>
                 <video width="750" height="400" playsInline poster={yellowcard}  controls >
                         <source src={yellowvideo} type="video/mp4"/>
                 </video>
-                </div>
-
-
-        </section>
+        </div>
+</section>
 
 
 
-  </div>
-  )
+</div>
+)
 }
 

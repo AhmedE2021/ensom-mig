@@ -20,9 +20,9 @@ function App() {
  
 
   return (
-    <div className="App">
+     <div className="App">
 
-
+<Homescreen />
  <Hero/>
   <TimeLineComp/>
   <Initiatives/>
