@@ -1,6 +1,9 @@
 import React from 'react'
 import "./Hero.css"
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { ParallaxBanner } from 'react-scroll-parallax';
+
+
+
 
 import greencard from "../assets/greencard.png"
 import purplecard from "../assets/purplecard.png"
@@ -16,19 +19,10 @@ import purplevideo from "../assets/Purple.mp4"
 
 
 export default function Hero () {
-return (
-          
-<div className='campaign-page NavSection'  id="hero">
-
-{/* ICON FOR SCROLL */}
-{/* <div className='expandmore' > <a href='#campaign_videos' > <ExpandMoreIcon style={{ color:'white', transition:'all 0.5s', fontSize:'100px'}}/> </a>
-</div> */}
-
-                  
-<section className='campaign-videos' id='campaign_videos'>
-       
-        {/* Green */}
-        <div className='campaign-video'>
+  return (
+    <div className='campaign-page NavSection'  id="hero">
+          <section className='campaign-videos' id='campaign_videos'>
+                <div className='campaign-video'>
                 <video width="750" height="400" playsInline poster='http://talomensomhed.dk/wp-content/uploads/2022/12/yellowcard.png'  controls >
                         <source src='http://talomensomhed.dk/wp-content/uploads/2022/12/Yellow.mp4' type="video/mp4"/>
                 </video>
@@ -38,9 +32,7 @@ return (
                 </div>
         </div>
 
-
-        {/* Blue */}
-        <div className='campaign-video'>
+                <div className='campaign-video'>
                 <div className='campaign-video-text'>
                         <h1 className='neon'>Ensomhed kan være når man er sammen med andre</h1>
                         <h1 className='blue-gradient'>For det meste dukker følelsen op når jeg er sammen med andre</h1>

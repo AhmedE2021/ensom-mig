@@ -6,8 +6,8 @@ export default function QuotesSection() {
     return (
         <section className="Quote-section">
        
-            <h1 className="Quote-header">Here’s what others said:</h1>
-        
+            <h1 className="Quote-header">Wall of quotes</h1>
+            <p>A short explanation about the section</p>
           
             <SimpleSlider 
                settings={{

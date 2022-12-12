@@ -67,7 +67,7 @@ background-repeat: repeat;
 
 body {
   overflow-x: hidden;
-  background-color: black;
+  background-color: #FFF7EE;
 }
 
 * {
@@ -89,11 +89,7 @@ html{
   padding-top: 0.25em;
 } */
 
-.vertical-timeline-element-content {
-  padding: 2em 3em !important;
-  box-shadow: none;
-  
-}
+
 
 
 #description {
