@@ -1,6 +1,25 @@
+.landing-section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(http://talomensomhed.dk/wp-content/uploads/2022/12/318338877_713207690166664_6921972430063318550_n-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.landing-title {
+    text-align: center;
+   font-family:Boen ;
+   text-shadow: 0 0 3px white;
+}
+
 .campaign-text{
     text-align: center;
    margin: 0 25% 15% 25%;
+  font-size: 35px;
   }
   
   .campaign-paragraph{
@@ -21,8 +40,8 @@
 }
 
 .expandmore{
-    margin-bottom: 15%;
-   
+margin-top: -6%;
+    
 }
 
 
@@ -37,6 +56,9 @@
     grid-column: 1;
 }
 
-
+.expandmore{
+    margin-top: -25%;
+        
+    }
 
 }

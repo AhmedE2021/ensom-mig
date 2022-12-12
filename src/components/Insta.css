@@ -1,6 +1,6 @@
 .insta-section{
     margin: 5% 5% 0 5%;
-    height: 100vh;
+    
 }
 
 .insta-section h1{
@@ -9,7 +9,6 @@ text-align: center;
 }
 
 .insta-videos{
-
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 }
@@ -18,3 +17,14 @@ grid-template-columns: 1fr 1fr 1fr;
   margin: 5% 25% 5% 25%;
   text-align: center;  
 }
+
+@media only screen and (max-width: 700px){
+  .insta-videos{
+
+    grid-template-columns: 1fr;
+  }
+ 
+
+}
+
+
