@@ -6,13 +6,13 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 import { useEffect, useState } from "react";
-import PostItem from "./PostItem";
+import QuoteItem from "./QuoteItem";
 
 export default function SimpleSlider({ settings }) {
     const [posts, setPosts] = useState([]);
     useEffect(() => {
         async function getData() {
-            const response = await fetch("https://api.pf.ahmedelsaedy.dk/wp-json/wp/v2/posts?_embed&v=999");
+            const response = await fetch("https://quotes-api.talomensomhed.dk/wp-json/wp/v2/posts?_embed");
             const data = await response.json();
             setPosts(data);
         }
@@ -22,7 +22,7 @@ export default function SimpleSlider({ settings }) {
         <section>
             <Slider {...settings}>
                 {posts.map(post => (
-                    <PostItem key={post.id} post={post} />
+                    <QuoteItem key={post.id} post={post} />
                 ))}
             </Slider>
         </section>

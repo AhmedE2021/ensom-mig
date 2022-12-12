@@ -5,7 +5,9 @@ export default function Footer() {
 
     return(
         <section className="footer-section">
-        <img src={Kommune}  alt="aarhus-kommune"/>
+        <img className="footer-logo" src={Kommune}  alt="aarhus-kommune"/>
+        <img className="footer-logo" src={Kommune}  alt="aarhus-kommune"/>
+        <img className="footer-logo" src={Kommune}  alt="aarhus-kommune"/>
         </section>
      
     )

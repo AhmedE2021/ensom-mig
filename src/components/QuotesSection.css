@@ -1,0 +1,15 @@
+.Quote-section{
+    margin: 0 5% 0 5%;
+
+}
+
+.Quote-header{
+    text-align: center;
+    color: #000;
+}
+
+.Quote-content{
+    align-items: center;
+   border: #000 1px solid;
+   margin: 7%;
+}
