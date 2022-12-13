@@ -28,6 +28,7 @@ function App() {
     <Initiatives/>
     <QuotesSection/>
     <ContactForm/>
+    <Insta/>
     <Footer/>
     </div>
   );
