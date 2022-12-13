@@ -8,6 +8,10 @@
 .lato{
   font-family: 'Lato', sans-serif; 
 }
+
+h1{ font-size: clamp(3rem, 4vw, 4rem);}
+p {font-size: clamp(1.25rem, 2vw, 2rem)}
+
 .neon--green {
     color:white;
     font-family: 'La Belle Aurore', cursive;
@@ -123,13 +127,6 @@ body {
 html{
   scroll-behavior: smooth;
 }
-
-/* h3 {
-  padding-top: 0.25em;
-} */
-
-
-
 
 #description {
   margin: 1.5em 0 2em 0;
