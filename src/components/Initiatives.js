@@ -1,6 +1,3 @@
-
-
-
 import * as React from 'react';
 
 import "./Initiatives.css"
@@ -31,13 +28,13 @@ export default function Initiatives() {
 
   return (
     <div className="initiatives-section" id="initiatives" >
-<h1 className="initiatives-header" >
-Initiativer</h1>
-           <div className='initiatives-cards' >
-           {initiatives.map(initiative => (
-                    <InitiativeItem key={initiative.id} initiative={initiative} />
-                ))}
-           </div>
+      <h1 className="initiatives-header" >
+      Initiativer</h1>
+      <div className='initiatives-cards' >
+      {initiatives.map(initiative => (
+              <InitiativeItem key={initiative.id} initiative={initiative} />
+          ))}
+      </div>
     </div>
   );
 }  

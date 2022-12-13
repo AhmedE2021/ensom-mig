@@ -2,6 +2,12 @@
 
 /* Fonts and effects ------------------------- */
 
+:root {
+  --warm1: #FFF7EE;
+  --warm2: #FFDBC2;
+}
+
+
 .labelle{
   font-family: 'La Belle Aurore', cursive;
 }
