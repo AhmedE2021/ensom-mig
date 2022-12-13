@@ -8,7 +8,7 @@
 .lato{
   font-family: 'Lato', sans-serif; 
 }
-.neon {
+.neon--green {
     color:white;
     font-family: 'La Belle Aurore', cursive;
     text-shadow:
@@ -20,6 +20,19 @@
     0 0 92px #0fa,
     0 0 102px #0fa,
     0 0 151px #0fa;
+}
+.neon--blue {
+    color:white;
+    font-family: 'La Belle Aurore', cursive;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(0, 187, 255),
+    0 0 82px rgb(0, 187, 255),
+    0 0 92px rgb(0, 187, 255),
+    0 0 102px rgb(0, 187, 255),
+    0 0 151px  rgb(0, 187, 255),
 }
 .yellow-gradient {
 background: linear-gradient(180.26deg, #FFD12D 0.23%, rgba(32, 71, 24, 0) 120.39%);
