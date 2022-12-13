@@ -10,7 +10,7 @@ text-align: center;
 
 .insta-videos{
 display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 .insta-paragraph{
@@ -27,4 +27,19 @@ grid-template-columns: 1fr 1fr 1fr;
 
 }
 
+@media only screen and (min-width: 700px){
+  .insta-videos{
+
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media only screen and (min-width: 1400px){
+  .insta-videos{
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+}
 
