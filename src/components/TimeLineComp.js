@@ -11,12 +11,12 @@ export default function Timeline8() {
 
   return (
 
-    <VerticalTimeline lineColor={"black"} text-transform={"none"}>
+    <VerticalTimeline lineColor={"#FFDBC2"} text-transform={"none"}>
 
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "white",  color: "black", boxShadow: "none" }}
-        iconStyle={{ background: "black", color: "#BD91B1" }} 
+        iconStyle={{ background: "#FF6B00", color: "#BD91B1" }} 
       >
         <p>
           Sig følelsen højt til dig selv. Du oplever måske, at det bliver letter
@@ -28,7 +28,7 @@ export default function Timeline8() {
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "white",  color: "black", boxShadow: "none" }}
-        iconStyle={{ background: "black", color: "#BD91B1" }} 
+        iconStyle={{ background: "#FF6B00", color: "#BD91B1" }} 
       >
         <p>
         Husk dig selv på, at mange oplever det samme som dig, og at det er normalt at
@@ -39,7 +39,7 @@ føle ensomhed - uanset hvor i livet, du befinder dig.
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "white",  color: "black", boxShadow: "none" }}
-        iconStyle={{ background: "black", color: "#BD91B1" }} 
+        iconStyle={{ background: "#FF6B00", color: "#BD91B1" }} 
       >
         <p>
         Selvom det kan virke pinligt eller farligt, så forsøg at fortælle hvordan du har
@@ -50,7 +50,7 @@ det til en anden.
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "white",  color: "black", boxShadow: "none" }}
-        iconStyle={{ background: "black", color: "#BD91B1" }} 
+        iconStyle={{ background: "#FF6B00", color: "#BD91B1" }} 
       >
         <p>
         Opsøg fællesskaber inden for dine egne interesser. Hvad enten du er til gaming
@@ -62,7 +62,7 @@ dig.
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "white",  color: "black", boxShadow: "none" }}
-        iconStyle={{ background: "black", color: "#BD91B1" }} 
+        iconStyle={{ background: "#FF6B00", color: "#BD91B1" }} 
       >
         <p>
         Du kan også søge hjælp og nye fællesskaber gennem initiativerne længere
@@ -73,7 +73,7 @@ nede på siden.
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "white",  color: "black", boxShadow: "none" }}
-        iconStyle={{ background: "black", color: "#BD91B1" }} 
+        iconStyle={{ background: "#FF6B00", color: "#BD91B1" }} 
       >
         <p>
           Sig følelsen højt til dig selv. Du oplever måske, at det bliver letter
