@@ -1,3 +1,7 @@
+.campaign-page :is(p, h1, h2){
+    padding: 0rem 4rem;
+}
+
 .campaign-videos{
     background-color: black;
 }
@@ -6,12 +10,12 @@
     flex-direction: column;
     margin-bottom: 4rem;
 }
-.campaign-video-text > h1{
-    /* margin: 2rem 0; */
+
+.campaign-video-text__header{
+    margin-top: 2rem;
 }
-
 .campaign-video-text__description {
-
+    margin-top: 2rem;
 }
 
 /* Video first on mobile */
@@ -22,11 +26,24 @@
     flex-direction: column-reverse;
 }
 
+#margin-bottom {
+    padding-bottom: 5rem;
+}
 
 @media screen and (min-width: 600px){
     /* flex becomes grid at 600px */
     .campaign-video{
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    /* Positioning of video text */
+    .campaign-video-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    #margin-bottom{
+        padding-bottom: 1rem;
     }
 }

@@ -11,8 +11,10 @@
     align-items: center;
 
     background-color: black;
+}
 
-    
+.HomescreenComponent :is(p, h1, h2) {
+    padding: 0rem 2rem;
 }
 
 .talkAbout {
@@ -25,6 +27,8 @@
     color: white;
 }
 
+
+
 /* Image with text ----------------------------------------*/
 
 .imgSection{
@@ -32,6 +36,7 @@
     color: white;
     background-color: black;
     background-attachment: fixed;
+    
 }
 
 .cityIMG{
@@ -47,7 +52,9 @@
 } */
 
 .textContainer{
-    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
 }
 
 /* Font sizes */
