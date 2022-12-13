@@ -1,6 +1,6 @@
 .Quote-section{
     margin: 0 5% 0 5%;
-
+text-align: center;
 }
 
 .Quote-header{
@@ -9,7 +9,10 @@
 }
 
 .Quote-content{
-    align-items: center;
-   border: #000 1px solid;
-   margin: 7%;
+   align-items: center;
+   padding: 2% 0 5%;
+   margin: 10%;
+   background-image: url(http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/1.png);
+   background-repeat: no-repeat;
+   margin: auto;
 }

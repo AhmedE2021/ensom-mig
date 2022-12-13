@@ -1,39 +1,20 @@
 import parse from "html-react-parser";
 
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-
-
 export default function InitiativeItem({ initiative }) {
 
-
-   
     return (
-       
-       
-        
-           <Accordion className='initiative-row'>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography>  <h3>{parse(initiative.title.rendered)}</h3> </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-          {parse(initiative.content.rendered)}
-         
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
- 
-        
 
-        
+        <article  className="initiative-card">
+            <img className="initiative-img" src={initiative.acf.image} alt={initiative.title.rendered} />
+            <div className="initiative-content"> 
+                <p className="initiative-text"> {parse(initiative.content.rendered)}</p>
+                <p className="initiative-description">
+                {parse(initiative.acf.Description)}
+            </p>
+            </div>
+            
+        </article>       
+  
     );
 }
 
