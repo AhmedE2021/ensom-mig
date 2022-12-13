@@ -1,0 +1,70 @@
+/* Frontpage Hero ------------------------------------------- */
+
+.Homescreen {
+    /* background-color: red; */
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+
+    
+}
+
+.talkAbout {
+    font-size: clamp(3rem, 10vw, 6rem);
+    color: white;
+}
+
+.loneliness {
+    font-size: clamp(3rem, 10vw, 6rem);
+    color: white;
+}
+
+/* Image with text ----------------------------------------*/
+
+.imgSection{
+    position: relative;
+    color: white;
+    background-color: black;
+    background-attachment: fixed;
+}
+
+.cityIMG{
+    width: 100%;
+    height: clamp(5rem, 40vh, 40rem);
+    object-fit: cover;
+
+    margin-bottom: -7rem;
+}
+
+/* * {
+    border: 1px solid red;
+} */
+
+.textContainer{
+    margin-bottom: 5rem;
+}
+
+/* Font sizes */
+.textContainer h1{
+    font-size: clamp(3rem, 4vw, 4rem);
+}
+.textContainer p {
+    font-size: clamp(1.25rem, 2vw, 2rem);
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .textContainer{
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: 10%;
+    }
+}
+

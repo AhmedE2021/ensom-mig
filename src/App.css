@@ -1,13 +1,86 @@
-@font-face {
-  font-family: Boen;
-  src: url(./assets/fonts/beon-webfont.ttf);
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Lato:wght@400;700&display=swap");
+
+/* Fonts and effects ------------------------- */
+
+.labelle{
+  font-family: 'La Belle Aurore', cursive;
+}
+.lato{
+  font-family: 'Lato', sans-serif; 
+}
+.neon--green {
+    color:white;
+    font-family: 'La Belle Aurore', cursive;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+.neon--blue {
+    color:white;
+    font-family: 'La Belle Aurore', cursive;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(0, 187, 255),
+    0 0 82px rgb(0, 187, 255),
+    0 0 92px rgb(0, 187, 255),
+    0 0 102px rgb(0, 187, 255),
+    0 0 151px  rgb(0, 187, 255),
+}
+.yellow-gradient {
+background: linear-gradient(180.26deg, #FFD12D 0.23%, rgba(32, 71, 24, 0) 120.39%);
+background-clip: text;
+background-size: 100%;
+background-repeat: repeat;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+-moz-background-clip: text;
+-moz-text-fill-color: transparent;
+}
+.green-gradient {
+background-image: linear-gradient(180.26deg, #77E062 0.23%, rgba(32, 71, 24, 0) 120.39%);
+background-clip: text;
+background-size: 100%;
+background-repeat: repeat;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+-moz-background-clip: text;
+-moz-text-fill-color: transparent;
+}
+.blue-gradient {
+background: linear-gradient(178.12deg, #8596D2 1.59%, rgba(32, 71, 24, 0) 184.69%);
+background-clip: text;
+background-size: 100%;
+background-repeat: repeat;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+-moz-background-clip: text;
+-moz-text-fill-color: transparent;
+}
+.purple-gradient {
+background: linear-gradient(180.26deg, #F25BFF 0.23%, rgba(32, 71, 24, 0) 120.39%);
+background-clip: text;
+background-size: 100%;
+background-repeat: repeat;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+-moz-background-clip: text;
+-moz-text-fill-color: transparent;
 }
 
+/* ------------------------- */
 
 
 body {
   overflow-x: hidden;
-  color: #FEFBFC;
+  background-color: #FFF7EE;
 }
 
 * {
@@ -15,15 +88,20 @@ body {
   padding: 0;
   box-sizing: border-box;
   transition: all .2s linear;
+  /* border: 1px solid red; */
+
+  font-family: 'Lato', sans-serif; 
 }
+
 
 html{
   scroll-behavior: smooth;
 }
 
-h3 {
+/* h3 {
   padding-top: 0.25em;
-}
+} */
+
 
 
 

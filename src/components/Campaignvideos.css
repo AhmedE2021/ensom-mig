@@ -1,0 +1,32 @@
+.campaign-videos{
+    background-color: black;
+}
+.campaign-video{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+.campaign-video-text > h1{
+    /* margin: 2rem 0; */
+}
+
+.campaign-video-text__description {
+
+}
+
+/* Video first on mobile */
+.campaign-videos > :nth-child(2){
+    flex-direction: column-reverse;
+}
+.campaign-videos > :nth-child(4){
+    flex-direction: column-reverse;
+}
+
+
+@media screen and (min-width: 600px){
+    /* flex becomes grid at 600px */
+    .campaign-video{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

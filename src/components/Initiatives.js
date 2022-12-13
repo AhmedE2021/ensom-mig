@@ -33,7 +33,7 @@ export default function Initiatives() {
     <div className="initiatives-section" id="initiatives" >
 <h1 className="initiatives-header" >
     Help and support are always available</h1>
-           <div >
+           <div className='initiatives-cards' >
            {initiatives.map(initiative => (
                     <InitiativeItem key={initiative.id} initiative={initiative} />
                 ))}

@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import Hero from './components/Hero';
+
 import QuotesSection from './components/QuotesSection';
 import Initiatives from "./components/Initiatives"
-import Insta from './components/Insta';
+import Homescreen from './components/Homescreen';
 import TimeLineComp from './components/TimeLineComp';
 import Footer from './components/Footer'
-import Poll from './components/MultiplePoll'
-import Campaign from './components/Campaign'
+import Campaignvideos from './components/Campaignvideos';
 import ContactForm from './components/ContactForm';
+import Insta from './components/Insta';
 
 
 
@@ -19,15 +19,16 @@ function App() {
  
 
   return (
-    <div className="App">
+     <div className="App">
 
-
- <Hero/>
-  <TimeLineComp/>
-  <Initiatives/>
- <QuotesSection/>
- <Insta/>
- <Footer/>
+    <Homescreen/>
+    <Campaignvideos/>
+    <TimeLineComp/>
+    <Initiatives/>
+    <QuotesSection/>
+    <ContactForm/>
+    <Insta />
+    <Footer/>
     </div>
   );
 }
