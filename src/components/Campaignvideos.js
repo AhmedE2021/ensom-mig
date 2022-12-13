@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Hero.css"
+import "./Campaignvideos.css"
 import { ParallaxBanner } from 'react-scroll-parallax';
 
 
@@ -18,7 +18,7 @@ import purplevideo from "../assets/Purple.mp4"
 
 
 
-export default function Hero () {
+export default function Campaignvideos () {
   return (
     <div className='campaign-page NavSection'  id="hero">
           <section className='campaign-videos' id='campaign_videos'>
