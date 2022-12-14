@@ -41,7 +41,7 @@
 .Homescreen {
     width: 100vw;
     height: 100vh;
-
+    background-color: #15161D;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,4 +110,5 @@
         margin-right: 10%;
     }
 }
+
 

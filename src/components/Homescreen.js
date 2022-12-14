@@ -1,6 +1,5 @@
 import styles from './Homescreen.module.css'
 import bluestill from '../assets/STILL_BLUE.jpg'
-import ArrowSVG from './ArrowSVG';
 
 
 export default function Homescreen() {
@@ -9,9 +8,21 @@ export default function Homescreen() {
      <div className={styles.HomescreenComponent}>
         <div className={styles.Homescreen}>
            <div>
-              <h2 className={`labelle ${styles.talkAbout}`}>Tal om</h2>
-              <h1 className={`lato ${styles.loneliness}`}>ENSOMHED</h1>
+            
+           
+           <div class="hero_blob2_green"></div>
+           <h2 className={`labelle ${styles.talkAbout}`}>Tal om</h2>
+           <h1 className={`lato ${styles.loneliness}`}>ENSOMHED</h1>
+       
+           <div class="hero_blob1_pink"></div>
+          <div class="hero_blob3_yellow"></div>
+
+         <div class="hero_blob4_blue"></div>
+              
+              
+              
            </div>
+      
         </div>
 
         <div className={styles.imgSection}>

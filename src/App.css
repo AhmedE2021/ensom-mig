@@ -121,6 +121,249 @@ p {
   -moz-text-fill-color: transparent;
 }
 
+
+
+.box1 {
+  border-radius: 50%;
+
+  width:200px;
+  height:200px;
+  animation-name: box1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  filter: blur(80px);
+  animation-direction:alternate;
+  margin-top:-20%;
+  z-index:1;
+  position:relative;   
+}
+
+@keyframes box1 {
+  from {
+      /* filter: blur(80px); */
+      margin-left:75%;
+
+  }
+  to {
+      /* filter: blur(120px); */
+      margin-left:50%;
+  }
+} 
+
+/* box2_green */
+.box2 {
+  border-radius: 50%;
+  width:250px;
+  height:250px;
+  position:relative;
+  animation-name: box2;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  filter: blur(80px);
+  animation-direction:alternate;
+  margin-top:-10%;
+  z-index:1;
+  position:relative;   
+}
+
+@keyframes box2 {
+  from {
+     
+      margin-left:40%;
+
+  }
+  to {
+    
+      margin-left:70%;
+  }
+} 
+
+
+
+.box1-green{
+  background-color:  #0A7259;
+}
+
+.box2-green{
+  background-color: #25392a ;
+}
+
+
+.box1-blue{
+
+}
+.box2-blue{
+  
+}
+
+.box1-yellow{
+  
+}
+
+.box2-yellow{
+  
+}
+
+.box1-purple{
+  
+}
+
+.box2-purple{
+  
+}
+
+
+
+
+
+
+/* hero_section_animation_in_the_background */
+
+
+.hero_blob1_pink{
+   
+  border-radius: 50%;
+  background-color:  #8641c2;
+  width: 100px;
+  height:100px;
+  animation-name: hero_blob1_pink;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  filter: blur(60px);
+  animation-direction:alternate;
+  margin-top:5%;
+  z-index:1;
+  position:relative;
+  
+ 
+
+  
+}
+
+@keyframes hero_blob1_pink {
+  from {
+      /* filter: blur(80px); */
+      margin-left:0;
+
+  }
+  to {
+      /* filter: blur(120px); */
+      margin-left:50%;
+  }
+} 
+
+
+
+.hero_blob2_green{
+
+
+  
+      border-radius: 50%;
+      background-color: #25392a ;
+      width:300px;
+      height:300px;
+      position:relative;
+    
+      animation-name: hero_blob2_green;
+      animation-duration: 9s;
+      animation-iteration-count: infinite;
+      filter: blur(60px);
+      animation-direction:alternate;
+      margin-top:13%;
+      z-index:1;
+      position:relative;
+      
+     
+      
+}
+  
+  @keyframes hero_blob2_green {
+      from {
+         
+          margin-left:50%;
+  
+      }
+      to {
+        
+          margin-left:38%;
+      }
+  } 
+
+
+.hero_blob3_yellow{
+      
+border-radius: 50%;
+background-color: #a48d1a ;
+width:110px;
+height:110px;
+position:relative;
+margin-left:3%;
+animation-name: hero_blob3_yellow;
+animation-duration: 8s;
+animation-iteration-count: infinite;
+filter: blur(60px);
+animation-direction:alternate;
+
+z-index:1;
+
+
+
+
+}
+
+
+@keyframes hero_blob3_yellow {
+from {
+ 
+  bottom:5%;
+
+}
+to {
+
+  bottom:80%;
+}
+}
+
+.hero_blob4_blue{
+border-radius: 50%;
+background-color: #1a28a4 ;
+width:110px;
+height:110px;
+position:relative;
+margin-left:90%;
+animation-name: hero_blob4_blue;
+animation-duration: 8s;
+animation-iteration-count: infinite;
+filter: blur(60px);
+animation-direction:alternate;
+
+z-index:1;
+
+
+}
+
+
+@keyframes hero_blob4_blue {
+from {
+ 
+  bottom:80%;
+
+}
+to {
+
+  bottom:5%;
+}
+}
+
+/* end of hero animation */
+
+
+
+
+
+
+
+
 /* ------------------------- */
 
 

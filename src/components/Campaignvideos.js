@@ -27,7 +27,10 @@ export default function Campaignvideos () {
                  <h1 className="green-gradient campaign-video-text__description">
                     Alt var så anderledes end det, jeg kom fra
                  </h1>
+                 <div className='box1 box1-green'></div>
+                 <div className='box2 box2-green'></div>
               </div>
+             
            </div>
 
            <div className="campaign-video-content para-green">
@@ -49,6 +52,8 @@ export default function Campaignvideos () {
                  <h1 className="blue-gradient campaign-video-text__description">
                     For det meste dukker følelsen op når jeg er sammen med andre
                  </h1>
+                 <div className='box1 box1-blue'></div>
+                 <div className='box2 box2-blue'></div>
               </div>
               <video
                  width="750"
@@ -94,13 +99,18 @@ export default function Campaignvideos () {
                  <h1 className="yellow-gradient campaign-video-text__description">
                     Alt var så anderledes end det, jeg kom fra
                  </h1>
+                 <div className='box1 box1-yellow'></div>
+                 <div className='box2 box2-yellow'></div>
               </div>
            </div>
 
            {/* Purple */}
 
            <div className="campaign-video-content para-purple">
-              <p className="campaign-video-text">Another cool statistic</p>
+              <p className="campaign-video-text">Ensomhed forekommer blandt unge mennesker.
+Mere end af de 16-24-årige i Region Midtjylland følte sig ensomme i 2021.
+
+1 ud af 5</p>
            </div>
 
            <div className="campaign-video" id="margin-bottom">
@@ -111,6 +121,8 @@ export default function Campaignvideos () {
                  <h1 className="purple-gradient campaign-video-text__description">
                     Jeg følte mig aldrig som en del af flokken
                  </h1>
+                 <div className='box1 box1-purple'></div>
+                 <div className='box2 box2-purple'></div>
               </div>
               <video
                  width="750"
