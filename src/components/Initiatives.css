@@ -1,13 +1,15 @@
 .initiatives-section{
     margin: 5% 5% 5% 5%;
-  
 }
 
 
 .initiatives-cards{
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 291px;
   gap: 2rem;
+  max-width: 1000px;
+  justify-content: center;
+  margin: 0 auto;
   /* text-align: center; */
 }
 
@@ -35,17 +37,30 @@ object-fit: fill;
 background-color: var(--warm2);
 }
 
-.initiative-text, 
+.initiative-text{
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: left;
+
+  font-size: 2rem !important;
+}
+
 .initiative-description{
-  padding: 5%;
+  font-size: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 @media screen and (min-width: 500px) {
   .initiatives-cards{
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 250px 250px;
+  justify-content: space-around;
+  /* max-width: 500px; */
   }
 
   .initiative-description{
-    min-height: 30rem;
-  }
+  min-height: 250px;
+}
+
 }

@@ -1,7 +1,16 @@
-.App {
-    font-family: sans-serif;
-    text-align: center;
-  }
+#youCanHeader{
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  margin: 2rem 0rem;
+  text-align: center;
+}
+
+.timeline-intro{
+  padding: 0 1.2rem;
+}
+.timeline-intro p{
+  text-align: left;
+}
 
 wrapper {
     display: flex;
