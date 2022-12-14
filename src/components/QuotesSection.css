@@ -1,5 +1,10 @@
+@font-face {
+    font-family:labelle;
+    src: url(../assets/fonts/LaBelleAurore-Regular.ttf);
+  }
+
 .Quote-section{
-    margin: 0 5% 0 5%;
+    margin: 10% 5% 0 5%;
 text-align: center;
 }
 
@@ -7,7 +12,9 @@ text-align: center;
     text-align: center;
     color: #000;
 }
-
+.Quote-explan{
+    margin-bottom: 10%;
+}
 .Quote-content{
    align-items: center;
    padding: 2% 0 5%;
@@ -15,4 +22,9 @@ text-align: center;
    background-image: url(http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/1.png);
    background-repeat: no-repeat;
    margin: auto;
+  
 }
+.Quote-text{
+    font-family:labelle;
+}
+

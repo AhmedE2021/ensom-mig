@@ -10,6 +10,7 @@ import Campaignvideos from './components/Campaignvideos';
 import ContactForm from './components/ContactForm';
 import Insta from './components/Insta';
 import Parallax from './components/Parallax';
+import ArrowSVG from './components/ArrowSVG';
 
 
 
@@ -37,11 +38,13 @@ function App() {
 
 
  
-
+    <Homescreen/>
     <Campaignvideos/>
-    <Initiatives/>
+   
     <QuotesSection/>
     <ContactForm/>
+    <TimeLineComp/>
+    <Initiatives/>
     <Insta />
     <Footer/>
    

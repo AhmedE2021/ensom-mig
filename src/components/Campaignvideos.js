@@ -47,10 +47,9 @@ export default function Campaignvideos () {
 		{/* Yellow */}
 		
 		   <div className='campaogn-video-content para-yellow'>
-           <p className='campaogn-video-text' >En opgørelse fra 2021 blandt kommuner i Østjylland viser,
-            at forekomsten af ensomhed var højest i Aarhus Kommune.
-            I Aarhus Kommune oplevede af borgerne, at de var ensomme.
-            15% Det svarer til mennesker.40,000</p>
+           <p className='campaogn-video-text' >Det fremgår også, at ensomhed oftere forekommer blandt unge mennesker.
+			Mere end af de 16-24-årige i Region Midtjylland følte sig ensomme i 2021.
+			</p>
 			</div>
 			
 		<div className='campaign-video'>
@@ -68,10 +67,7 @@ export default function Campaignvideos () {
 	{/* Purple */}
 
 	<div className='campaogn-video-content para-purple'>
-           <p className='campaogn-video-text' >En opgørelse fra 2021 blandt kommuner i Østjylland viser,
-            at forekomsten af ensomhed var højest i Aarhus Kommune.
-            I Aarhus Kommune oplevede af borgerne, at de var ensomme.
-            15% Det svarer til mennesker.40,000</p>
+           <p className='campaogn-video-text' >Another cool statistic</p>
 			</div>
 
 

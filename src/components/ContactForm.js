@@ -32,10 +32,10 @@ const ContactForm = () => {
 
     return (
         <div id="contact-form">
-            <p>A short explanation about the section</p>
+            <p>Skriv dine tanker her</p>
             <textarea placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
-            <button onClick={submit}>Send Message</button>
-            <span className={emailSent ? 'visible' : null}>Thank you for your message, we will be in touch in no time!</span>
+            <button onClick={submit}>Send</button>
+            <span className={emailSent ? 'visible' : null}>Tak for din besked, vi vil gennemgå din besked og sende den på ingen tid!</span>
         </div>
     );
 };
