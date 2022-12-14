@@ -9,16 +9,18 @@ export default function Insta () {
  
 
     return(
+      <div className="instagram-section">
 <section className="insta-section" id="instagram">
  
  <h1>ENsom mig</h1>
 
 <div className="insta-paragraph">
- <p>Together we can break the taboo. website, but you can still share your stories via the hashtag #talomensomhed.</p>
+<p>ENsom Mig er en Instagramprofil, der omfavner unges personlige fortællinger om ensomhed. Siden rummer i dag over 30 modige unge mennesker, der har valgt at fortælle deres historier.</p>
 
- <p>You can be at the forefront of the fight to break the taboo around loneliness by sharing your own experiences of loneliness or by sending a thought to those who feel lonely. You can do that here on the page or by using the hashtag #talomensomhed on your favorite SoMe platform.</p>
+<p>Har du lyst til at dele din historie og hjælpe os i kampen for at bryde tabuet?</p>
 
- <p>Selected quotes will be shared here on the site, but all contributions are equally important. Your post or story can help inspire others in your network to dare to speak openly about it.</p>
+<p>Besøg vores Instagram her.</p>
+
  </div>
 
 
@@ -44,12 +46,12 @@ export default function Insta () {
 
 
 <div className="insta-paragraph">
-<p>+30 people shared their expeierence . # campaign info here</p>
-<p>Break the taboo together! - short massage at the end</p>
+<h1>Lad os bryde tabuet</h1>
+<p>sammen!</p>
 </div>
 
 </section>
-
+</div>
     )
 }
 
