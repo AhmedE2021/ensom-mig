@@ -1,5 +1,13 @@
 /* Frontpage Hero ------------------------------------------- */
 
+
+
+
+/* ----------------------------------- */
+.HomescreenComponent{
+    background-color: var(--background);
+}
+
 .Homescreen {
     /* background-color: red; */
     width: 100vw;
@@ -10,7 +18,7 @@
     justify-content: center;
     align-items: center;
 
-    background-color: black;
+    
 }
 
 .HomescreenComponent :is(p, h1, h2) {
@@ -34,8 +42,9 @@
 .imgSection{
     position: relative;
     color: white;
-    background-color: black;
     background-attachment: fixed;
+
+    padding-bottom: 2rem;
     
 }
 
@@ -52,9 +61,7 @@
 } */
 
 .textContainer{
-    padding-bottom: 5rem;
-    /* padding-left: 1rem;
-    padding-right: 1rem; */
+   margin-bottom: 8rem;
 }
 
 /* Font sizes */

@@ -1,15 +1,17 @@
+
+
+
+
 .campaign-page :is(p, h1, h2){
   padding: 0rem 4rem;
-
 }
 
-.campaogn-video-text{
+.campaign-video-text{
   color: #fff;
-  text-align: center;
 
 }
 
-.campaogn-video-content{
+.campaign-video-content{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,7 +43,7 @@ background-image: url(http://quotes-api.talomensomhed.dk/wp-content/uploads/2022
 }
 
 .campaign-videos{
-  background-color: black;
+  background-color: var(--background);
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 2px;
@@ -61,10 +63,13 @@ background-image: url(http://quotes-api.talomensomhed.dk/wp-content/uploads/2022
 }
 
 /* Video first on mobile */
-.campaign-videos > :nth-child(2){
+.campaign-videos > :nth-child(1){
   flex-direction: column-reverse;
 }
 .campaign-videos > :nth-child(4){
+  flex-direction: column-reverse;
+}
+.campaign-videos > :nth-child(8){
   flex-direction: column-reverse;
 }
 
@@ -77,6 +82,7 @@ background-image: url(http://quotes-api.talomensomhed.dk/wp-content/uploads/2022
   .campaign-video{
       display: grid;
       grid-template-columns: 1fr 1fr;
+      margin: 3rem 0;
   }
 
   /* Positioning of video text */
