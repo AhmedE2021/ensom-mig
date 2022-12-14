@@ -35,7 +35,7 @@ export default function Insta () {
 </div>
 
 <div style={{  justifyContent: 'center',margin:'1%',height:'100%' }}>
-  <InstagramEmbed url="https://www.instagram.com/p/CHn15DyDYqF/?utm_source=ig_web_copy_link" height='91%' width='100%' captioned />
+  <InstagramEmbed url="https://www.instagram.com/p/COXtzYxBfQM/?utm_source=ig_web_copy_link" height='91%' width='100%' captioned />
 </div>
 
 <div style={{  justifyContent: 'center',margin:'1%',height:'100%' }}>

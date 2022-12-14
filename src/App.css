@@ -221,7 +221,6 @@ p {
 
 
 .hero_blob1_pink{
-   
   border-radius: 50%;
   background-color:  #8641c2;
   width: 100px;
@@ -233,11 +232,7 @@ p {
   animation-direction:alternate;
   margin-top:5%;
   z-index:1;
-  position:relative;
-  
- 
-
-  
+  position:relative; 
 }
 
 @keyframes hero_blob1_pink {
@@ -255,15 +250,11 @@ p {
 
 
 .hero_blob2_green{
-
-
-  
       border-radius: 50%;
       background-color: #25392a ;
       width:300px;
       height:300px;
       position:relative;
-    
       animation-name: hero_blob2_green;
       animation-duration: 9s;
       animation-iteration-count: infinite;
@@ -271,10 +262,7 @@ p {
       animation-direction:alternate;
       margin-top:13%;
       z-index:1;
-      position:relative;
-      
-     
-      
+      position:relative;     
 }
   
   @keyframes hero_blob2_green {
@@ -290,8 +278,7 @@ p {
   } 
 
 
-.hero_blob3_yellow{
-      
+.hero_blob3_yellow{    
 border-radius: 50%;
 background-color: #a48d1a ;
 width:110px;
@@ -303,12 +290,7 @@ animation-duration: 8s;
 animation-iteration-count: infinite;
 filter: blur(60px);
 animation-direction:alternate;
-
 z-index:1;
-
-
-
-
 }
 
 
@@ -336,10 +318,7 @@ animation-duration: 8s;
 animation-iteration-count: infinite;
 filter: blur(60px);
 animation-direction:alternate;
-
 z-index:1;
-
-
 }
 
 
@@ -354,6 +333,26 @@ to {
   bottom:5%;
 }
 }
+
+@media screen and (max-width: 500px){
+.hero_blob2_green{
+  width:130px;
+}
+.hero_blob1_pink{
+  
+}
+.hero_blob3_yellow{
+
+}
+.hero_blob4_blue{
+  margin-left:60%;
+}
+
+
+}
+
+
+
 
 /* end of hero animation */
 
@@ -435,4 +434,3 @@ video {
   letter-spacing: 2px;
 }
 
-.sec:nth-child(odd) {}
