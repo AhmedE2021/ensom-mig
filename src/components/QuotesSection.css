@@ -8,6 +8,11 @@
 text-align: center;
 }
 
+.Quote-section span {
+    color: var(--blue);
+    font-weight: bold;
+}
+
 .Quote-header{
     text-align: center;
     color: #000;
@@ -19,7 +24,7 @@ text-align: center;
    align-items: center;
    padding: 2% 0 5%;
    margin: 10%;
-   background-image: url(http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/1.png);
+   background-image: url(http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Asset-1.png);
    background-repeat: no-repeat;
    margin: auto;
   

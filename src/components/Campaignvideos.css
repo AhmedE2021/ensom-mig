@@ -77,6 +77,23 @@ background-image: url(http://quotes-api.talomensomhed.dk/wp-content/uploads/2022
   padding-bottom: 5rem;
 }
 
+
+
+.gradientTransition{
+  height: 20vh;
+  background: linear-gradient(180deg, #15161D 50%, #FFFFFF 88.99%);
+}
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 600px){
   /* flex becomes grid at 600px */
   .campaign-video{

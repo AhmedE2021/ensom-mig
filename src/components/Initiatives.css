@@ -1,3 +1,7 @@
+#initiatives{
+  margin-top: 10rem;
+}
+
 .initiatives-section{
     margin: 5% 5% 5% 5%;
 }
@@ -24,7 +28,7 @@
 .initiatives-header{
     color: #000;
     text-align: center;
-    margin: 5% 0 5% 0;
+    margin: 5rem 0;
 }
 
 .initiative-img{

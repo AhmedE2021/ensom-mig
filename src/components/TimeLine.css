@@ -1,3 +1,5 @@
+/* Our CSS ------------------------- */
+
 #youCanHeader{
   padding-left: 1.2rem;
   padding-right: 1.2rem;
@@ -5,12 +7,21 @@
   text-align: center;
 }
 
-.timeline-intro{
-  padding: 0 1.2rem;
+#TimelineComp{
+  background-color: var(--blue3);
+  margin-top: 10rem;
+  padding-top: 5rem;
 }
-.timeline-intro p{
-  text-align: left;
+
+.vertical-timeline-element-content-arrow{
+  display: none;
 }
+
+.vertical-timeline-element-icon {
+  color: red;
+}
+
+/* Their CSS ------------------------------- */
 
 wrapper {
     display: flex;

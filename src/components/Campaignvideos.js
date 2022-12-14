@@ -126,6 +126,11 @@ export default function Campaignvideos () {
               </video>
            </div>
         </section>
+
+         <div className='gradientTransition'></div>
+
+
+
      </div>
   )
 }
