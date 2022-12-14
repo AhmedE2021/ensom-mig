@@ -1,5 +1,35 @@
 /* Frontpage Hero ------------------------------------------- */
+.box2_green {
+    border-radius: 50%;
+    background-color: #25392a ;
+    width:250px;
+    height:250px;
+    position:relative;
+  
+    animation-name: box2_green;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    filter: blur(80px);
+    animation-direction:alternate;
+    margin-top:-10%;
+    z-index:10;
+    position:relative;
+    
+   
+    
+}
 
+@keyframes box2_green {
+    from {
+       
+        margin-left:40%;
+
+    }
+    to {
+      
+        margin-left:70%;
+    }
+} 
 
 
 
@@ -9,7 +39,6 @@
 }
 
 .Homescreen {
-    /* background-color: red; */
     width: 100vw;
     height: 100vh;
 
