@@ -1,9 +1,11 @@
 .instagram-section{
-  background-color: #FFF7EE;
+  background-color: white;
+  padding-top: 8rem;
 }
-.insta-section{
-    margin: 5% 5% 0 5%;
-    
+
+.insta-videos{
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
 }
 
 .insta-section h1{
@@ -16,10 +18,42 @@ display: grid;
 
 }
 
-.insta-paragraph{
-  margin: 5% 10% 5% 10%;
-  text-align: center;  
+*{
+  /* border: 1px solid red; */
 }
+
+.insta-paragraph{
+  margin-bottom: 4rem;
+  text-align: center;  
+  /* padding: 0 1.2rem; */
+}
+
+.break-taboo{
+  padding: 3rem 0;
+  background-color: var(--blue3);
+}
+
+.break-taboo__div{
+  max-width: min(80%, 500px);
+  margin: 0 auto;
+  
+}
+
+.break-taboo__div p{
+  margin-right: auto;
+  text-align: right;
+  font-size: 2rem;
+  font-size: clamp(3rem, 4vw, 4rem);
+}
+
+.break-taboo span{
+  color: var(--blue);
+  margin-left: auto;
+}
+
+
+
+
 
 @media only screen and (max-width: 700px){
   .insta-videos{

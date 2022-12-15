@@ -45,9 +45,11 @@ export default function Insta () {
 </div>
 
 
-<div className="insta-paragraph">
-<h1>Lad os bryde tabuet</h1>
-<p>sammen!</p>
+<div className="break-taboo">
+<div className="break-taboo__div">
+  <h1>Lad os bryde tabuet</h1>
+  <p> <span className="labelle">sammen! </span></p>
+</div>
 </div>
 
 </section>

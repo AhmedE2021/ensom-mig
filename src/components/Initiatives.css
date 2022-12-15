@@ -3,7 +3,9 @@
 }
 
 .initiatives-section{
-    margin: 5% 5% 5% 5%;
+    /* margin: 5% 5% 5% 5%; */
+    background-color: var(--blue3);
+    padding: 4rem 0rem;
 }
 
 
@@ -22,23 +24,25 @@
    margin: 2% 0 0 0; 
    display: flex; 
   flex-direction: column;
-  filter: drop-shadow(0px 4px 25px rgba(218, 218, 218, 0.5));
+  filter: drop-shadow(0px 4px 25px #d9d9d9);
 }
 
 .initiatives-header{
     color: #000;
     text-align: center;
-    margin: 5rem 0;
+    margin-bottom: 3rem;
 }
+
+
 
 .initiative-img{
 width: 100%;
 height: 10rem;
-object-fit: fill;
 }
 
 .initiative-content{
-background-color: var(--warm2);
+background-color: var(--blue2);
+color: var(--blue);
 }
 
 .initiative-text{
