@@ -16,7 +16,7 @@ export default function Campaignvideos () {
                  controls
               >
                  <source
-                    src="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Green.mp4"
+                    src="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/01_Gron_V6_Low.mp4"
                     type="video/mp4"
                  />
               </video>
@@ -63,7 +63,7 @@ export default function Campaignvideos () {
                  controls
               >
                  <source
-                    src="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Blue.mp4"
+                    src="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/03_Bla_V6_Low.mp4"
                     type="video/mp4"
                  />
               </video>
@@ -88,7 +88,7 @@ export default function Campaignvideos () {
                  controls
               >
                  <source
-                    src="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Yellow.mp4"
+                    src="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/02_Gul_V6_Low.mp4"
                     type="video/mp4"
                  />
               </video>
@@ -132,7 +132,7 @@ Mere end af de 16-24-årige i Region Midtjylland følte sig ensomme i 2021.
                  controls
               >
                  <source
-                    src="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Purple.mp4"
+                    src="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/04_Lilla_V6_Low.mp4"
                     type="video/mp4"
                  />
               </video>
