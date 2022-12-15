@@ -190,26 +190,27 @@ p {
 
 
 .box1-blue{
-
+  background-color:  rgb(60, 60, 177);
 }
 .box2-blue{
-  
+    background-color:  rgb(39, 39, 101);
+
 }
 
 .box1-yellow{
-  
+  background-color: rgb(125, 125, 27);
 }
 
 .box2-yellow{
-  
+  background-color: rgb(69, 69, 13);
 }
 
 .box1-purple{
-  
+  background-color: rgb(222, 41, 186);
 }
 
 .box2-purple{
-  
+  background-color: rgb(75, 11, 66);
 }
 
 
