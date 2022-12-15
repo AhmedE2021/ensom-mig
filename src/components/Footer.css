@@ -1,5 +1,12 @@
-.footer-section{ 
-    background-color: #D9D9D9;
+.footer-section{
+    display: grid;
+    grid-template-columns: 1fr; 
+    margin: 10% 5% 0 5%;  
+    padding-bottom: 2%;
+}
+
+
+.footer-icons{ 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10%;
@@ -8,3 +15,10 @@
 .footer-logo{
     width: 100%;
 }
+.footer-message{
+    text-align: center;
+    column-gap: 0;
+}
+
+
+

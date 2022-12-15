@@ -1,14 +1,20 @@
+#initiatives{
+  margin-top: 10rem;
+}
+
 .initiatives-section{
     margin: 5% 5% 5% 5%;
-  
 }
 
 
 .initiatives-cards{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 5%;
-  text-align: center;
+  grid-template-columns: 291px;
+  gap: 2rem;
+  max-width: 1000px;
+  justify-content: center;
+  margin: 0 auto;
+  /* text-align: center; */
 }
 
 
@@ -16,24 +22,49 @@
    margin: 2% 0 0 0; 
    display: flex; 
   flex-direction: column;
+  filter: drop-shadow(0px 4px 25px rgba(218, 218, 218, 0.5));
 }
 
 .initiatives-header{
     color: #000;
     text-align: center;
-    margin: 5% 0 5% 0;
+    margin: 5rem 0;
 }
 
 .initiative-img{
 width: 100%;
-height: 100%;
+height: 10rem;
+object-fit: fill;
 }
 
 .initiative-content{
-background-color: #D9D9D9;
+background-color: var(--warm2);
 }
 
 .initiative-text{
-padding: 5%;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: left;
+
+  font-size: 2rem !important;
+}
+
+.initiative-description{
+  font-size: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media screen and (min-width: 500px) {
+  .initiatives-cards{
+  grid-template-columns: 250px 250px;
+  justify-content: space-around;
+  /* max-width: 500px; */
+  }
+
+  .initiative-description{
+  min-height: 250px;
+}
 
 }

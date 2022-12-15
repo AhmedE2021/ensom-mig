@@ -1,49 +1,128 @@
+
+
+
+
 .campaign-page :is(p, h1, h2){
-    padding: 0rem 4rem;
+  padding: 0rem 4rem;
+}
+
+.campaign-video-text{
+  color: #fff;
+
+}
+
+.campaign-video-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  overflow: hidden;
+  height: clamp(5rem, 40vh, 40rem);
+}
+
+
+
+
+.para-green{
+  background-image: url(http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Rectangle-57.png);
+}
+
+.para-yellow{
+background-image: url(http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Rectangle-58.png);
+
+}
+
+.para-purple{
+background-image: url(http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Group-18.png);
+
 }
 
 .campaign-videos{
-    background-color: black;
+  background-color: var(--background);
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
 }
 .campaign-video{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+  position: relative;
 }
 
 .campaign-video-text__header{
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 .campaign-video-text__description {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 /* Video first on mobile */
-.campaign-videos > :nth-child(2){
-    flex-direction: column-reverse;
+.campaign-videos > :nth-child(1){
+  flex-direction: column-reverse;
 }
 .campaign-videos > :nth-child(4){
-    flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+.campaign-videos > :nth-child(8){
+  flex-direction: column-reverse;
 }
 
 #margin-bottom {
-    padding-bottom: 5rem;
+  padding-bottom: 5rem;
 }
+
+
+
+.gradientTransition{
+  height: 20vh;
+  background: linear-gradient(180deg, #15161D 50%, #FFFFFF 88.99%);
+}
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 600px){
-    /* flex becomes grid at 600px */
-    .campaign-video{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+  /* flex becomes grid at 600px */
+  .campaign-video{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 3rem 0;
+  }
 
-    /* Positioning of video text */
-    .campaign-video-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    }
-    #margin-bottom{
-        padding-bottom: 1rem;
-    }
+  /* Positioning of video text */
+  .campaign-video-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+  #margin-bottom{
+      padding-bottom: 1rem;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+

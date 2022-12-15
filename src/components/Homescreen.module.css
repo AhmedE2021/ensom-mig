@@ -1,16 +1,53 @@
 /* Frontpage Hero ------------------------------------------- */
+.box2_green {
+    border-radius: 50%;
+    background-color: #25392a ;
+    width:250px;
+    height:250px;
+    position:relative;
+  
+    animation-name: box2_green;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    filter: blur(80px);
+    animation-direction:alternate;
+    margin-top:-10%;
+    z-index:10;
+    position:relative;
+    
+   
+    
+}
+
+@keyframes box2_green {
+    from {
+       
+        margin-left:40%;
+
+    }
+    to {
+      
+        margin-left:70%;
+    }
+} 
+
+
+
+/* ----------------------------------- */
+.HomescreenComponent{
+    background-color: var(--background);
+}
 
 .Homescreen {
-    /* background-color: red; */
     width: 100vw;
     height: 100vh;
-
+    background-color: #15161D;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    background-color: black;
+    
 }
 
 .HomescreenComponent :is(p, h1, h2) {
@@ -34,8 +71,9 @@
 .imgSection{
     position: relative;
     color: white;
-    background-color: black;
     background-attachment: fixed;
+
+    padding-bottom: 2rem;
     
 }
 
@@ -52,9 +90,7 @@
 } */
 
 .textContainer{
-    padding-bottom: 5rem;
-    /* padding-left: 1rem;
-    padding-right: 1rem; */
+   margin-bottom: 8rem;
 }
 
 /* Font sizes */
@@ -74,4 +110,5 @@
         margin-right: 10%;
     }
 }
+
 

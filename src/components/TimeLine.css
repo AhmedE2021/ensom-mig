@@ -1,7 +1,27 @@
-.App {
-    font-family: sans-serif;
-    text-align: center;
-  }
+/* Our CSS ------------------------- */
+
+#youCanHeader{
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  margin: 2rem 0rem;
+  text-align: center;
+}
+
+#TimelineComp{
+  background-color: var(--blue3);
+  margin-top: 10rem;
+  padding-top: 5rem;
+}
+
+.vertical-timeline-element-content-arrow{
+  display: none;
+}
+
+.vertical-timeline-element-icon {
+  color: red;
+}
+
+/* Their CSS ------------------------------- */
 
 wrapper {
     display: flex;

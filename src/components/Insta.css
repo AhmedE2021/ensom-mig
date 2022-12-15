@@ -1,3 +1,6 @@
+.instagram-section{
+  background-color: #FFF7EE;
+}
 .insta-section{
     margin: 5% 5% 0 5%;
     
@@ -14,7 +17,7 @@ display: grid;
 }
 
 .insta-paragraph{
-  margin: 5% 25% 5% 25%;
+  margin: 5% 10% 5% 10%;
   text-align: center;  
 }
 

@@ -6,7 +6,7 @@ export default function QuoteItem({ post }) {
 
     return (
         <article className="Quote-content">
-            <p>{parse(post.content.rendered)}</p>
+            <p className="Quote-text">{parse(post.content.rendered)}</p>
         </article>  
     );
 }

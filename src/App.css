@@ -1,109 +1,367 @@
 @import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Lato:wght@400;700&display=swap");
 
+
 /* Fonts and effects ------------------------- */
 
-.labelle{
+:root {
+  --warm1: #FFF7EE;
+  --warm2: #FFDBC2;
+  --background: #15161D;
+  --blue: #3488C1;
+  --blue2: #92BFDD;
+  --blue3: #d7efff;
+}
+
+
+.labelle {
   font-family: 'La Belle Aurore', cursive;
 }
-.lato{
-  font-family: 'Lato', sans-serif; 
+
+.lato {
+  font-family: 'Lato', sans-serif;
 }
 
-h1{ font-size: clamp(3rem, 4vw, 4rem);}
-p {font-size: clamp(1.25rem, 2vw, 2rem)}
+h1 {
+  font-size: clamp(3rem, 4vw, 4rem);
+}
+
+p {
+  font-size: clamp(1.25rem, 2vw, 2rem)
+}
 
 .neon--green {
-    color:white;
-    font-family: 'La Belle Aurore', cursive;
-    text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px #0fa,
-    0 0 82px #0fa,
-    0 0 92px #0fa,
-    0 0 102px #0fa,
-    0 0 151px #0fa;
+  color: white;
+  font-family: 'La Belle Aurore', cursive;
+  text-shadow: 0 0 5px #ffa500,
+    0 0 15px #54E351,
+    0 0 20px #54E351,
+    0 0 40px #54E351,
+    0 0 60px #225e21,
+    0 0 10px #54E351,
+    0 0 98px #225e21;
 }
+
 .neon--blue {
-    color:white;
-    font-family: 'La Belle Aurore', cursive;
-    text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px rgb(0, 187, 255),
-    0 0 82px rgb(0, 187, 255),
-    0 0 92px rgb(0, 187, 255),
-    0 0 102px rgb(0, 187, 255),
-    0 0 151px  rgb(0, 187, 255),
+  color: white;
+  font-family: 'La Belle Aurore', cursive;
+  text-shadow: 0 0 5px #ffa500,
+    0 0 15px #5991FF,
+    0 0 20px #5991FF,
+    0 0 40px #5991FF,
+    0 0 60px #263f71,
+    0 0 10px #5991FF,
+    0 0 98px #263f71;
 }
+
 .neon--yellow {
-    color:white;
-    font-family: 'La Belle Aurore', cursive;
-    text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px rgb(227, 243, 0),
-    0 0 82px  rgb(227, 243, 0),
-    0 0 92px rgb(227, 243, 0),
-    0 0 102px  rgb(227, 243, 0),
-    0 0 151px  rgb(227, 243, 0),
+  color: white;
+  font-family: 'La Belle Aurore', cursive;
+  text-shadow: 0 0 5px #ffa500,
+    0 0 15px #FFD12D,
+    0 0 20px #FFD12D,
+    0 0 40px #FFD12D,
+    0 0 60px #715d13,
+    0 0 10px #FFD12D,
+    0 0 98px #715d13;
 }
+
 .neon--purple {
-    color:white;
-    font-family: 'La Belle Aurore', cursive;
-    text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px rgb(198, 11, 155),
-    0 0 82px rgb(198, 11, 155),
-    0 0 92px rgb(198, 11, 155),
-    0 0 102px rgb(198, 11, 155),
-    0 0 151px rgb(198, 11, 155),
+  color: white;
+  font-family: 'La Belle Aurore', cursive;
+  text-shadow: 0 0 5px #ffa500,
+    0 0 15px #BD52FF,
+    0 0 20px #BD52FF,
+    0 0 40px #BD52FF,
+    0 0 60px #5b287a,
+    0 0 10px #BD52FF,
+    0 0 98px #5b287a;
 }
+
 .yellow-gradient {
-background: linear-gradient(180.26deg, #FFD12D 0.23%, rgba(32, 71, 24, 0) 120.39%);
-background-clip: text;
-background-size: 100%;
-background-repeat: repeat;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent; 
--moz-background-clip: text;
--moz-text-fill-color: transparent;
+  background: linear-gradient(180.26deg, #FFD12D 0.23%, rgba(32, 71, 24, 0) 120.39%);
+  background-clip: text;
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
+
 .green-gradient {
-background-image: linear-gradient(180.26deg, #77E062 0.23%, rgba(32, 71, 24, 0) 120.39%);
-background-clip: text;
-background-size: 100%;
-background-repeat: repeat;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent; 
--moz-background-clip: text;
--moz-text-fill-color: transparent;
+  background-image: linear-gradient(180.26deg, #77E062 0.23%, rgba(32, 71, 24, 0) 120.39%);
+  background-clip: text;
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
+
 .blue-gradient {
-background: linear-gradient(178.12deg, #8596D2 1.59%, rgba(32, 71, 24, 0) 184.69%);
-background-clip: text;
-background-size: 100%;
-background-repeat: repeat;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent; 
--moz-background-clip: text;
--moz-text-fill-color: transparent;
+  background: linear-gradient(178.12deg, #8596D2 1.59%, rgba(32, 71, 24, 0) 184.69%);
+  background-clip: text;
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
+
 .purple-gradient {
-background: linear-gradient(180.26deg, #F25BFF 0.23%, rgba(32, 71, 24, 0) 120.39%);
-background-clip: text;
-background-size: 100%;
-background-repeat: repeat;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent; 
--moz-background-clip: text;
--moz-text-fill-color: transparent;
+  background: linear-gradient(180.26deg, #F25BFF 0.23%, rgba(32, 71, 24, 0) 120.39%);
+  background-clip: text;
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
+
+
+
+.box1 {
+  border-radius: 50%;
+
+  width:200px;
+  height:200px;
+  animation-name: box1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  filter: blur(80px);
+  animation-direction:alternate;
+  margin-top:-20%;
+  z-index:1;
+  position:relative;   
+}
+
+@keyframes box1 {
+  from {
+      /* filter: blur(80px); */
+      margin-left:75%;
+
+  }
+  to {
+      /* filter: blur(120px); */
+      margin-left:50%;
+  }
+} 
+
+/* box2_green */
+.box2 {
+  border-radius: 50%;
+  width:250px;
+  height:250px;
+  position:relative;
+  animation-name: box2;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  filter: blur(80px);
+  animation-direction:alternate;
+  margin-top:-10%;
+  z-index:1;
+  position:relative;   
+}
+
+@keyframes box2 {
+  from {
+     
+      margin-left:40%;
+
+  }
+  to {
+    
+      margin-left:70%;
+  }
+} 
+
+
+
+.box1-green{
+  background-color:  #0A7259;
+}
+
+.box2-green{
+  background-color: #25392a ;
+}
+
+
+.box1-blue{
+
+}
+.box2-blue{
+  
+}
+
+.box1-yellow{
+  
+}
+
+.box2-yellow{
+  
+}
+
+.box1-purple{
+  
+}
+
+.box2-purple{
+  
+}
+
+
+
+
+
+
+/* hero_section_animation_in_the_background */
+
+
+.hero_blob1_pink{
+  border-radius: 50%;
+  background-color:  #8641c2;
+  width: 100px;
+  height:100px;
+  animation-name: hero_blob1_pink;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  filter: blur(60px);
+  animation-direction:alternate;
+  margin-top:5%;
+  z-index:1;
+  position:relative; 
+}
+
+@keyframes hero_blob1_pink {
+  from {
+      /* filter: blur(80px); */
+      margin-left:0;
+
+  }
+  to {
+      /* filter: blur(120px); */
+      margin-left:50%;
+  }
+} 
+
+
+
+.hero_blob2_green{
+      border-radius: 50%;
+      background-color: #25392a ;
+      width:300px;
+      height:300px;
+      position:relative;
+      animation-name: hero_blob2_green;
+      animation-duration: 9s;
+      animation-iteration-count: infinite;
+      filter: blur(60px);
+      animation-direction:alternate;
+      margin-top:13%;
+      z-index:1;
+      position:relative;     
+}
+  
+  @keyframes hero_blob2_green {
+      from {
+         
+          margin-left:50%;
+  
+      }
+      to {
+        
+          margin-left:38%;
+      }
+  } 
+
+
+.hero_blob3_yellow{    
+border-radius: 50%;
+background-color: #a48d1a ;
+width:110px;
+height:110px;
+position:relative;
+margin-left:3%;
+animation-name: hero_blob3_yellow;
+animation-duration: 8s;
+animation-iteration-count: infinite;
+filter: blur(60px);
+animation-direction:alternate;
+z-index:1;
+}
+
+
+@keyframes hero_blob3_yellow {
+from {
+ 
+  bottom:5%;
+
+}
+to {
+
+  bottom:80%;
+}
+}
+
+.hero_blob4_blue{
+border-radius: 50%;
+background-color: #1a28a4 ;
+width:110px;
+height:110px;
+position:relative;
+margin-left:90%;
+animation-name: hero_blob4_blue;
+animation-duration: 8s;
+animation-iteration-count: infinite;
+filter: blur(60px);
+animation-direction:alternate;
+z-index:1;
+}
+
+
+@keyframes hero_blob4_blue {
+from {
+ 
+  bottom:80%;
+
+}
+to {
+
+  bottom:5%;
+}
+}
+
+@media screen and (max-width: 500px){
+.hero_blob2_green{
+  width:130px;
+}
+.hero_blob1_pink{
+  
+}
+.hero_blob3_yellow{
+
+}
+.hero_blob4_blue{
+  margin-left:60%;
+}
+
+
+}
+
+
+
+
+/* end of hero animation */
+
+
+
+
+
+
+
 
 /* ------------------------- */
 
@@ -120,11 +378,11 @@ body {
   transition: all .2s linear;
   /* border: 1px solid red; */
 
-  font-family: 'Lato', sans-serif; 
+  font-family: 'Lato', sans-serif;
 }
 
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -161,12 +419,12 @@ video {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,.4);
+  background-color: rgba(0, 0, 0, .4);
   /* background-color: #000000cc; */
 }
 
 
-.sec{
+.sec {
   min-height: 100vh;
   width: 100vw;
   display: flex;
@@ -176,6 +434,3 @@ video {
   letter-spacing: 2px;
 }
 
-.sec:nth-child(odd){
-
-}

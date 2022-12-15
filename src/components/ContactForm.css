@@ -17,19 +17,23 @@
   #contact-form textarea {
     height: 100px;
     resize: vertical;
-    border: 1px solid #000;
     background-color: #FFF;
+    background: #FEFBFC;
+    /* border: 1px solid #3488C1; */
+    box-shadow: 0px 4px 25px #3488C1;
+    border-radius: 25px;
   }
   #contact-form button {
-    width: 35%;
+    
     border: 0;
     cursor: pointer;
-    background: #D9D9D9;
+    background: #FF6B00;
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 15px;
-    text-transform: uppercase;
-    padding: 2px;
+  
+    padding: 10px 25px;
+    color: #FFF;
   }
   #contact-form span {
     display: none;
@@ -38,4 +42,8 @@
   #contact-form span.visible {
     display: block;
   }
-  
+  #contact-form > button {
+    border-radius: 20px;
+    width: 8rem;
+    background-color: var(--blue);
+  }
