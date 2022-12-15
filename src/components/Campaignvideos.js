@@ -52,8 +52,8 @@ export default function Campaignvideos () {
                  <h1 className="blue-gradient campaign-video-text__description">
                     For det meste dukker følelsen op når jeg er sammen med andre
                  </h1>
-                 <div className='box1 box1-blue'></div>
-                 <div className='box2 box2-blue'></div>
+                 <div className='box3 box3-blue'></div>
+                 <div className='box4 box4-blue'></div>
               </div>
               <video
                  width="750"
@@ -121,8 +121,8 @@ Mere end af de 16-24-årige i Region Midtjylland følte sig ensomme i 2021.
                  <h1 className="purple-gradient campaign-video-text__description">
                     Jeg følte mig aldrig som en del af flokken
                  </h1>
-                 <div className='box1 box1-purple'></div>
-                 <div className='box2 box2-purple'></div>
+                 <div className='box3 box3-purple'></div>
+                 <div className='box4 box4-purple'></div>
               </div>
               <video
                  width="750"
