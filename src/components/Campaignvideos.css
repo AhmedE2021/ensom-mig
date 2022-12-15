@@ -1,4 +1,8 @@
-.campaign-page :is(p, h1, h2, .paper-dolls){
+
+
+
+
+.campaign-page :is(p, h1, h2){
   padding: 0rem 4rem;
 }
 
@@ -7,7 +11,7 @@
 position: relative;
 }
 
-.banner-text{
+.campaign-video-content{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,17 +22,7 @@ position: relative;
   background-position: top center;
   background-attachment: fixed;
   overflow: hidden;
-  height: clamp(5rem, 50vh, 40rem);
-  color: white;
-}
-.banner-text span{
-  font-size: clamp(2rem, 3vw, 3rem);
-}
-.banner-text cite{
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
-  opacity: 0.5;
+  height: clamp(5rem, 40vh, 40rem);
 }
 
 
@@ -76,14 +70,19 @@ bottom: 35%;
 }
 
 /* Video first on mobile */
-#second-video{
+.campaign-videos > :nth-child(1){
   flex-direction: column-reverse;
 }
-#fourth-video{
+.campaign-videos > :nth-child(4){
   flex-direction: column-reverse;
-  padding-bottom: 5rem;
+}
+.campaign-videos > :nth-child(8){
+  flex-direction: column-reverse;
 }
 
+#margin-bottom {
+  padding-bottom: 5rem;
+}
 
 
 
@@ -114,8 +113,7 @@ bottom: 35%;
   .campaign-video-text{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-
+  justify-content: center;
   }
   #margin-bottom{
       padding-bottom: 1rem;
@@ -123,13 +121,12 @@ bottom: 35%;
 }
 
 
-.iconStyle{
-padding-top: 1%;
-margin-top: 4%;
-  
-}
 
-/* paddingTop:'1%', margin-Top:'4%',paddingLeft:'10px' */
+
+
+
+
+
 
 
 
