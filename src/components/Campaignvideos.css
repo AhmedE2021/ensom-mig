@@ -73,6 +73,7 @@ background-image: url(http://quotes-api.talomensomhed.dk/wp-content/uploads/2022
 position: absolute;
 right: 15%;
 bottom: 35%;
+
 }
 
 /* Video first on mobile */
@@ -115,7 +116,7 @@ bottom: 35%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
+  
   }
   #margin-bottom{
       padding-bottom: 1rem;
