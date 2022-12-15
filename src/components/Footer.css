@@ -1,8 +1,8 @@
 .footer-section{
     display: grid;
     grid-template-columns: 1fr; 
-    margin: 10% 5% 0 5%;  
-    padding-bottom: 2%;
+    padding: 4rem 1.2rem;
+    background-color: var(--blue3);
 }
 
 
@@ -14,11 +14,15 @@
 
 .footer-logo{
     width: 100%;
+    max-width: 300px;
 }
 .footer-message{
     text-align: center;
     column-gap: 0;
 }
-
+.footer-message span{
+    color: var(--blue);
+    font-weight: bold;
+}
 
 

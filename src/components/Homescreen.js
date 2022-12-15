@@ -11,7 +11,7 @@ export default function Homescreen() {
             
            
            <div class="hero_blob2_green"></div>
-           <h2 className={`labelle ${styles.talkAbout}`}>Tal om</h2>
+           <h2 className={`labelle neon--white ${styles.talkAbout}`}>Tal om</h2>
            <h1 className={`lato ${styles.loneliness}`}>ENSOMHED</h1>
        
            <div class="hero_blob1_pink"></div>

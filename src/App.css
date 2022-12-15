@@ -9,7 +9,7 @@
   --background: #15161D;
   --blue: #3488C1;
   --blue2: #92BFDD;
-  --blue3: #d7efff;
+  --blue3: #edf7fe;
 }
 
 
@@ -28,6 +28,19 @@ h1 {
 p {
   font-size: clamp(1.25rem, 2vw, 2rem)
 }
+
+.neon--white {
+  color: white;
+  font-family: 'La Belle Aurore', cursive;
+  text-shadow: 0 0 5px #ffa500,
+    0 0 15px #757575,
+    0 0 20px #ffffff,
+    0 0 40px #525252,
+    0 0 60px #ffffff,
+    0 0 10px #ababab,
+    0 0 98px #ffffff;
+}
+
 
 .neon--green {
   color: white;
