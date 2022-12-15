@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 1fr; 
     padding: 4rem 1.2rem;
-    background-color: var(--blue3);
 }
 .footer-section > div{
     /* stops icons from growing too much */

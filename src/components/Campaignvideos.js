@@ -7,7 +7,7 @@ export default function Campaignvideos () {
      <div className="campaign-page NavSection" id="hero">
         <section className="campaign-videos" id="campaign_videos">
            {/* Green */}
-           <div className="campaign-video ">
+           <div className="campaign-video" id="first-video">
               <video
                  width="750"
                  height="400"
@@ -27,28 +27,34 @@ export default function Campaignvideos () {
                  <h1 className="green-gradient campaign-video-text__description">
                     Alt var så anderledes end det, jeg kom fra
                  </h1>
-                 
-                 <div className='box1 box1-green'></div>
-                 <img className='campaign-video-doll' src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/greendoll.png'
-                  alt='manikkekenderandre'/>
-                 <div className='box2 box2-green'></div>
-             
+
+                 <div className="box1 box1-green"></div>
+                 <img
+                    className="campaign-video-doll"
+                    src="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/greendoll.png"
+                    alt="manikkekenderandre"
+                 />
+                 <div className="box2 box2-green"></div>
+
+                 <div>
+                    <div className="box1 box1-green"></div>
+                    <div className="box2 box2-green"></div>
+                 </div>
               </div>
-             
            </div>
 
-           <div className="campaign-video-content para-green">
-              <p className="campaign-video-text">
-                 En opgørelse fra 2021 blandt kommuner i Østjylland viser, at
-                 forekomsten af ensomhed var højest i Aarhus Kommune. I Aarhus
-                 Kommune oplevede af borgerne, at de var ensomme. 15% Det svarer
-                 til mennesker.40,000
+           {/* Info banner green */}
+           <div className="banner-text para-green">
+              <p>
+                 Ensomhed er en ubehagelig følelse, der opstår som følge af en
+                 oplevet uoverensstemmelse mellem ønskede sociale relationer og
+                 faktiske sociale relationer.
               </p>
+              
            </div>
 
-			{/* Blue */}
-			  
-           <div className="campaign-video">
+           {/* Blue */}
+           <div className="campaign-video" id="second-video">
               <div className="campaign-video-text">
                  <h1 className="neon--blue campaign-video-text__header">
                     Ensomhed kan være når man er sammen med andre
@@ -56,10 +62,13 @@ export default function Campaignvideos () {
                  <h1 className="blue-gradient campaign-video-text__description">
                     For det meste dukker følelsen op når jeg er sammen med andre
                  </h1>
-                 <div className='box3 box3-blue'></div>
-                 <img className='campaign-video-doll' src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/bluedoll.png'
-                  alt='manikkekenderandre'/>
-                 <div className='box4 box4-blue'></div>
+                 <div className="box3 box3-blue"></div>
+                 <img
+                    className="campaign-video-doll"
+                    src="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/bluedoll.png"
+                    alt="manikkekenderandre"
+                 />
+                 <div className="box4 box4-blue"></div>
               </div>
               <video
                  width="750"
@@ -75,17 +84,20 @@ export default function Campaignvideos () {
               </video>
            </div>
 
-           {/* Yellow */}
-
-           <div className="campaign-video-content para-yellow">
-              <p className="campaign-video-text">
-                 Det fremgår også, at ensomhed oftere forekommer blandt unge
-                 mennesker. Mere end af de 16-24-årige i Region Midtjylland
-                 følte sig ensomme i 2021.
+           {/* Info banner */}
+           <div className="banner-text para-yellow">
+              <p>
+                 En opgørelse fra 2021 blandt kommuner i Region Midtjylland
+                 viser, at forekomsten af ensomhed var højest i Aarhus Kommune.
+                 <span className="labelle neon--white"> 15%</span> af borgerne i
+                 kommunen oplevede, at de var ensomme. Det svarer til{' '}
+                 <span className="labelle neon--white">40.000</span> mennesker.
               </p>
+              <cite>DEFACTUM, Region Midtjylland 2022</cite>
            </div>
 
-           <div className="campaign-video">
+           {/* Yellow */}
+           <div className="campaign-video" id="third-video">
               <video
                  width="750"
                  height="400"
@@ -105,23 +117,28 @@ export default function Campaignvideos () {
                  <h1 className="yellow-gradient campaign-video-text__description">
                     Alt var så anderledes end det, jeg kom fra
                  </h1>
-                 <div className='box1 box1-yellow'></div>
-                 <img className='campaign-video-doll' src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/yellowdoll.png'
-                  alt='manikkekenderandre'/>
-                 <div className='box2 box2-yellow'></div>
+                 <div className="box1 box1-yellow"></div>
+                 <img
+                    className="campaign-video-doll"
+                    src="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/yellowdoll.png"
+                    alt="manikkekenderandre"
+                 />
+                 <div className="box2 box2-yellow"></div>
               </div>
            </div>
 
-           {/* Purple */}
-
-           <div className="campaign-video-content para-purple">
-              <p className="campaign-video-text">Ensomhed forekommer blandt unge mennesker.
-Mere end af de 16-24-årige i Region Midtjylland følte sig ensomme i 2021.
-
-1 ud af 5</p>
+           {/* Info banner */}
+           <div className="banner-text para-purple">
+              <p>
+                 Ensomhed forekommer oftere blandt unge mennesker. Mere end
+                 <span className="labelle neon--white"> 20% </span> af de
+                 16-24-årige i Region Midtjylland følte sig ensomme i 2021.
+              </p>
+              <cite>DEFACTUM, Region Midtjylland 2022</cite>
            </div>
 
-           <div className="campaign-video" id="margin-bottom">
+           {/* Purple */}
+           <div className="campaign-video" id="fourth-video">
               <div className="campaign-video-text">
                  <h1 className="neon--purple campaign-video-text__header">
                     Ensomhed kan være når man ikke kender andre
@@ -129,10 +146,13 @@ Mere end af de 16-24-årige i Region Midtjylland følte sig ensomme i 2021.
                  <h1 className="purple-gradient campaign-video-text__description">
                     Jeg følte mig aldrig som en del af flokken
                  </h1>
-                 <div className='box3 box3-purple'></div>
-                 <img className='campaign-video-doll' src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/purpledoll.png'
-                  alt='manikkekenderandre'/>
-                 <div className='box4 box4-purple'></div>
+                 <div className="box3 box3-purple"></div>
+                 <img
+                    className="campaign-video-doll"
+                    src="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/purpledoll.png"
+                    alt="manikkekenderandre"
+                 />
+                 <div className="box4 box4-purple"></div>
               </div>
               <video
                  width="750"
@@ -149,10 +169,7 @@ Mere end af de 16-24-årige i Region Midtjylland følte sig ensomme i 2021.
            </div>
         </section>
 
-         <div className='gradientTransition'></div>
-
-
-
+        <div className="gradientTransition"></div>
      </div>
   )
 }

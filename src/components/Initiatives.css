@@ -3,7 +3,9 @@
 }
 
 .initiatives-section{
-    margin: 5% 5% 5% 5%;
+    /* margin: 5% 5% 5% 5%; */
+    background-color: var(--blue3);
+    padding: 4rem 0rem;
 }
 
 
@@ -28,7 +30,7 @@
 .initiatives-header{
     color: #000;
     text-align: center;
-    margin: 5rem 0;
+    margin-bottom: 3rem;
 }
 
 

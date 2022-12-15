@@ -69,7 +69,7 @@
 
 @media screen and (min-width: 600px) {
     .textContainer{
-        max-width: 70%;
+        width: min(70%, 1600px);
         margin-left: auto;
         margin-right: 10%;
     }

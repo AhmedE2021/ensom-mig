@@ -1,5 +1,5 @@
 .instagram-section{
-  background-color: var(--blue3);
+  background-color: white;
   padding-top: 8rem;
 }
 
@@ -30,7 +30,7 @@ display: grid;
 
 .break-taboo{
   padding: 3rem 0;
-  background-color: white;
+  background-color: var(--blue3);
 }
 
 .break-taboo__div{
