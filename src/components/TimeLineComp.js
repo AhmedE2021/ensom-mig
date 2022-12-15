@@ -32,10 +32,11 @@ export default function Timeline8() {
                  background: 'transparent',
                  color: 'black',
                  boxShadow: 'none',
+                 display:'flex'
               }}
-              iconStyle={{ background: '#3488C1', color: '#3488C1' }}
             
-              date=""
+              iconStyle={{ background: 'var(--blue3)',boxShadow:'none', marginTop:'4%' }}
+              icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
               position='right'
            >
               <p>
@@ -52,8 +53,8 @@ export default function Timeline8() {
                  color: 'black',
                  boxShadow: 'none',
               }}
-              iconStyle={{ background: '#3488C1', color: '#BD91B1' }}
-             
+              iconStyle={{ background: 'var(--blue3)',boxShadow:'none',marginTop:'4%'  }}
+              icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
            >
               <p>
                  Husk dig selv på, at mange oplever det samme som dig, og at det
@@ -69,7 +70,8 @@ export default function Timeline8() {
                  color: 'black',
                  boxShadow: 'none',
               }}
-              iconStyle={{ background: '#3488C1', color: '#BD91B1' }}
+              iconStyle={{ background: 'var(--blue3)',boxShadow:'none',marginTop:'4%'  }}
+              icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
               position='right'
 
            >
@@ -86,7 +88,8 @@ export default function Timeline8() {
                  color: 'black',
                  boxShadow: 'none',
               }}
-              iconStyle={{ background: '#3488C1', color: '#BD91B1' }}
+              iconStyle={{ background: 'var(--blue3)',boxShadow:'none',marginTop:'4%'  }}
+              icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
            >
               <p>
                  Opsøg fællesskaber inden for dine egne interesser. Hvad enten
@@ -102,7 +105,8 @@ export default function Timeline8() {
                  color: 'black',
                  boxShadow: 'none',
               }}
-              iconStyle={{ background: '#3488C1', color: '#BD91B1' }}
+              iconStyle={{ background: 'var(--blue3)',boxShadow:'none',marginTop:'4%'  }}
+              icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
               position='right'
            >
               <p>
@@ -133,9 +137,8 @@ export default function Timeline8() {
          color: 'black',
          boxShadow: 'none',
       }}
-      iconStyle={{ background: '#3488C1', color: '#3488C1' }}
-      icon={<Person2Icon />}
-      date=""
+      iconStyle={{ background: '#fff',boxShadow:'none',marginTop:'4%'  }}
+      icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
       
    >
       <p>
@@ -151,7 +154,8 @@ export default function Timeline8() {
          color: 'black',
          boxShadow: 'none',
       }}
-      iconStyle={{ background: '#3488C1', color: '#BD91B1' }}
+      iconStyle={{ background: '#fff',boxShadow:'none' ,marginTop:'4%' }}
+      icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
       position='left'
    >
       <p>
@@ -167,7 +171,8 @@ export default function Timeline8() {
          color: 'black',
          boxShadow: 'none',
       }}
-      iconStyle={{ background: '#3488C1', color: '#BD91B1' }}
+      iconStyle={{ background: '#fff',boxShadow:'none',marginTop:'4%'  }}
+      icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
       
 
    >
@@ -184,7 +189,8 @@ export default function Timeline8() {
          color: 'black',
          boxShadow: 'none',
       }}
-      iconStyle={{ background: '#3488C1', color: '#BD91B1' }}
+      iconStyle={{ background: '#fff',boxShadow:'none' ,marginTop:'4%' }}
+      icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
       position='left'
    >
       <p>

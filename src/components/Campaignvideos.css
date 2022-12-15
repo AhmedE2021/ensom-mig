@@ -121,9 +121,13 @@ bottom: 35%;
 }
 
 
+.iconStyle{
+padding-top: 1%;
+margin-top: 4%;
+  
+}
 
-
-
+/* paddingTop:'1%', margin-Top:'4%',paddingLeft:'10px' */
 
 
 
