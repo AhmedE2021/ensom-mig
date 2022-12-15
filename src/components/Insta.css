@@ -3,7 +3,10 @@
   padding-top: 8rem;
 }
 
-
+.insta-videos{
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
 
 .insta-section h1{
     color: #000;
@@ -16,7 +19,7 @@ display: grid;
 }
 
 *{
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .insta-paragraph{

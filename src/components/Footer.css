@@ -4,9 +4,14 @@
     padding: 4rem 1.2rem;
     background-color: var(--blue3);
 }
-
+.footer-section > div{
+    /* stops icons from growing too much */
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
 .footer-icons{ 
+    margin-top: 5rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10%;
@@ -14,7 +19,6 @@
 
 .footer-logo{
     width: 100%;
-    max-width: 300px;
 }
 .footer-message{
     text-align: center;
