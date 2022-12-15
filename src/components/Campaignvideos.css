@@ -1,8 +1,4 @@
-
-
-
-
-.campaign-page :is(p, h1, h2){
+.campaign-page :is(p, h1, h2, .paper-dolls){
   padding: 0rem 4rem;
 }
 
@@ -11,7 +7,7 @@
 position: relative;
 }
 
-.campaign-video-content{
+.banner-text{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,7 +18,17 @@ position: relative;
   background-position: top center;
   background-attachment: fixed;
   overflow: hidden;
-  height: clamp(5rem, 40vh, 40rem);
+  height: clamp(5rem, 50vh, 40rem);
+  color: white;
+}
+.banner-text span{
+  font-size: clamp(2rem, 3vw, 3rem);
+}
+.banner-text cite{
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  opacity: 0.5;
 }
 
 
@@ -70,19 +76,14 @@ bottom: 35%;
 }
 
 /* Video first on mobile */
-.campaign-videos > :nth-child(1){
+#second-video{
   flex-direction: column-reverse;
 }
-.campaign-videos > :nth-child(4){
+#fourth-video{
   flex-direction: column-reverse;
-}
-.campaign-videos > :nth-child(8){
-  flex-direction: column-reverse;
-}
-
-#margin-bottom {
   padding-bottom: 5rem;
 }
+
 
 
 
@@ -113,23 +114,11 @@ bottom: 35%;
   .campaign-video-text{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
+
   }
   #margin-bottom{
       padding-bottom: 1rem;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
- 
-
 
