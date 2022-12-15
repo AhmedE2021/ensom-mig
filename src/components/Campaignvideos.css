@@ -8,7 +8,7 @@
 
 .campaign-video-text{
   color: #fff;
-
+position: relative;
 }
 
 .campaign-video-content{
@@ -60,6 +60,13 @@ background-image: url(http://quotes-api.talomensomhed.dk/wp-content/uploads/2022
 }
 .campaign-video-text__description {
   margin-top: 2rem;
+}
+
+.campaign-video-doll{
+  width: 20%;
+position: absolute;
+right: 15%;
+bottom: 35%;
 }
 
 /* Video first on mobile */
