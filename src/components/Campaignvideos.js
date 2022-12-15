@@ -27,8 +27,12 @@ export default function Campaignvideos () {
                  <h1 className="green-gradient campaign-video-text__description">
                     Alt var så anderledes end det, jeg kom fra
                  </h1>
+                 
                  <div className='box1 box1-green'></div>
+                 <img className='campaign-video-doll' src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/greendoll.png'
+                  alt='manikkekenderandre'/>
                  <div className='box2 box2-green'></div>
+             
               </div>
              
            </div>
@@ -53,6 +57,8 @@ export default function Campaignvideos () {
                     For det meste dukker følelsen op når jeg er sammen med andre
                  </h1>
                  <div className='box3 box3-blue'></div>
+                 <img className='campaign-video-doll' src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/bluedoll.png'
+                  alt='manikkekenderandre'/>
                  <div className='box4 box4-blue'></div>
               </div>
               <video
@@ -100,6 +106,8 @@ export default function Campaignvideos () {
                     Alt var så anderledes end det, jeg kom fra
                  </h1>
                  <div className='box1 box1-yellow'></div>
+                 <img className='campaign-video-doll' src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/yellowdoll.png'
+                  alt='manikkekenderandre'/>
                  <div className='box2 box2-yellow'></div>
               </div>
            </div>
@@ -122,6 +130,8 @@ Mere end af de 16-24-årige i Region Midtjylland følte sig ensomme i 2021.
                     Jeg følte mig aldrig som en del af flokken
                  </h1>
                  <div className='box3 box3-purple'></div>
+                 <img className='campaign-video-doll' src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/purpledoll.png'
+                  alt='manikkekenderandre'/>
                  <div className='box4 box4-purple'></div>
               </div>
               <video
