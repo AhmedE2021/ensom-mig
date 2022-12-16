@@ -15,7 +15,7 @@ export default function Footer() {
                    </a>
                 </p>
              </div>
-             <div className="footer-icons testtttt">
+             <div className="footer-icons testtt">
                 <img
                    className="footer-logo"
                    src="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/VIA-Film-_-Transmedia-Logo.png"
