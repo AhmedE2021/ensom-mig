@@ -197,5 +197,6 @@ export default function Timeline8() {
            </VerticalTimeline>
         </section>
      </div>
+
   )
 }

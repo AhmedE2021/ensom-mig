@@ -141,7 +141,6 @@ p {
 /* Glow animation behind vidoe text  */
 .box1 {
   border-radius: 50%;
-
   width:200px;
   height:200px;
   animation-name: box1;
@@ -171,7 +170,6 @@ p {
   border-radius: 50%;
   width:250px;
   height:250px;
-  position:relative;
   animation-name: box2;
   animation-duration: 6s;
   animation-iteration-count: infinite;
@@ -253,7 +251,15 @@ to {
 } 
 
 
+@media screen and (max-width: 600px){
+  .box1, .box3, .box2, .box4{
+    height: 100px;
 
+
+  }
+
+
+}
 
 
 

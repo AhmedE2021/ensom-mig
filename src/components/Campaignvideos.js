@@ -36,10 +36,7 @@ export default function Campaignvideos () {
                  />
                  {/* <div className="box2 box2-green"></div>
 
-                 <div>
-                    <div className="box1 box1-green"></div>
-                    <div className="box2 box2-green"></div>
-                 </div> */}
+
               </div>
            </div>
 
