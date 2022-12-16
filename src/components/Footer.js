@@ -10,10 +10,12 @@ export default function Footer() {
                 <p>Alle presserelaterede spørgsmål og henvendelser</p>
                 <p>
                    vedrørende kampagnen bedes rettet til{' '}
-                   <span>laura.ensommig@gmail.com</span>
+                   <a href="mailto:laura.ensommig@gmail.com">
+                      <span>laura.ensommig@gmail.com</span>
+                   </a>
                 </p>
              </div>
-             <div className="footer-icons">
+             <div className="footer-icons testtt">
                 <img
                    className="footer-logo"
                    src="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/VIA-Film-_-Transmedia-Logo.png"
