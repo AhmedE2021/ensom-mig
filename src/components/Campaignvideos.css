@@ -41,6 +41,7 @@ position: relative;
 .para-yellow{
 background-image: url(http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Rectangle-58.png);
 
+
 }
 
 .para-purple{
@@ -81,6 +82,9 @@ bottom: 35%;
   .campaign-video-doll{
     bottom: 0;
   }
+  .para-yellow{
+    height: 60vh;
+  }
 }
 
 /* Video first on mobile */
@@ -103,6 +107,10 @@ bottom: 35%;
 @media screen and (max-width: 600px){
   .gradientTransition{
     height: 10vh;
+    margin-top: -1%;
+  }
+  #fourth-video{
+    padding-bottom:0;
   }
 }
 
