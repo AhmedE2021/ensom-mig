@@ -248,7 +248,15 @@ to {
 } 
 
 
+@media screen and (max-width: 600px){
+  .box1, .box3, .box2, .box4{
+    height: 100px;
 
+
+  }
+
+
+}
 
 
 

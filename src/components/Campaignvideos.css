@@ -76,6 +76,13 @@ bottom: 35%;
 
 }
 
+
+@media screen and (max-width: 600px){
+  .campaign-video-doll{
+    bottom: 0;
+  }
+}
+
 /* Video first on mobile */
 #second-video{
   flex-direction: column-reverse;
@@ -93,7 +100,11 @@ bottom: 35%;
   background: linear-gradient(180deg, #15161D 50%, #FFFFFF 88.99%);
 }
 
-
+@media screen and (max-width: 600px){
+  .gradientTransition{
+    height: 10vh;
+  }
+}
 
 
 
@@ -109,17 +120,24 @@ bottom: 35%;
       display: grid;
       grid-template-columns: 1fr 1fr;
       margin: 3rem 0;
+   
   }
 
   /* Positioning of video text */
+ 
   .campaign-video-text{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  
+ 
   }
   #margin-bottom{
       padding-bottom: 1rem;
   }
+
+
 }
+
+
+ 
 
