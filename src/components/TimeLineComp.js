@@ -1,5 +1,5 @@
 // https://www.npmjs.com/package/vertical-timeline-forked
-import Person2Icon from '@mui/icons-material/Person2';
+
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -36,7 +36,7 @@ export default function Timeline8() {
                     boxShadow: 'none',
                  }}
                  
-               iconStyle={{ background: 'var(--blue3)',boxShadow:'none', marginTop:'4%',height:'40px',width:'40px',paddingLeft:'.5%' }}
+               iconStyle={{ background: 'var(--blue3)',boxShadow:'none', marginTop:'8%',height:'40px',width:'40px',paddingLeft:'.5%' }}
                icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
                  
                  position="right"
@@ -57,7 +57,7 @@ export default function Timeline8() {
                     boxShadow: 'none',
                  }}
                 
-               iconStyle={{ background: 'var(--blue3)',boxShadow:'none', marginTop:'4%',height:'40px',width:'40px',paddingLeft:'.5%' }}
+               iconStyle={{ background: 'var(--blue3)',boxShadow:'none', marginTop:'8%',height:'40px',width:'40px',paddingLeft:'.5%' }}
                icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
               >
                  <p className="timeline-Card">
@@ -75,7 +75,7 @@ export default function Timeline8() {
                     boxShadow: 'none',
                  }}
                 
-               iconStyle={{ background: 'var(--blue3)',boxShadow:'none', marginTop:'4%',height:'40px',width:'40px',paddingLeft:'.5%' }}
+               iconStyle={{ background: 'var(--blue3)',boxShadow:'none', marginTop:'8%',height:'40px',width:'40px',paddingLeft:'.5%' }}
                icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
                  position="right"
               >
@@ -93,7 +93,7 @@ export default function Timeline8() {
                     boxShadow: 'none',
                  }}
                  
-               iconStyle={{ background: 'var(--blue3)',boxShadow:'none', marginTop:'4%',height:'40px',width:'40px',paddingLeft:'.5%' }}
+               iconStyle={{ background: 'var(--blue3)',boxShadow:'none', marginTop:'8%',height:'40px',width:'40px',paddingLeft:'.5%' }}
                icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
               >
                  <p className="timeline-Card">
@@ -111,7 +111,7 @@ export default function Timeline8() {
                     boxShadow: 'none',
                  }}
                  
-               iconStyle={{ background: 'var(--blue3)',boxShadow:'none', marginTop:'4%',height:'40px',width:'40px',paddingLeft:'.5%' }}
+               iconStyle={{ background: 'var(--blue3)',boxShadow:'none', marginTop:'8%',height:'40px',width:'40px',paddingLeft:'.5%' }}
                icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
                  position="right"
               >
@@ -146,7 +146,7 @@ export default function Timeline8() {
                     color: 'black',
                     boxShadow: 'none',
                  }}
-                 iconStyle={{ background: 'var(--blue3)',boxShadow:'none',marginTop:'4%',height:'40px',width:'40px',paddingLeft:'.5%'  }}
+                 iconStyle={{ background: 'var(--blue3)',boxShadow:'none',marginTop:'8%',height:'40px',width:'40px',paddingLeft:'.5%'  }}
                  icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
                  
                  date=""
@@ -164,7 +164,7 @@ export default function Timeline8() {
                     color: 'black',
                     boxShadow: 'none',
                  }}
-                 iconStyle={{ background: 'var(--blue3)',boxShadow:'none',marginTop:'4%',height:'40px',width:'40px',paddingLeft:'.5%'  }}
+                 iconStyle={{ background: 'var(--blue3)',boxShadow:'none',marginTop:'8%',height:'40px',width:'40px',paddingLeft:'.5%'  }}
                icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
                  position="left"
               >
@@ -182,7 +182,7 @@ export default function Timeline8() {
                     color: 'black',
                     boxShadow: 'none',
                  }}
-                 iconStyle={{ background: 'var(--blue3)',boxShadow:'none',marginTop:'4%',height:'40px',width:'40px',paddingLeft:'.5%'  }}
+                 iconStyle={{ background: 'var(--blue3)',boxShadow:'none',marginTop:'8%',height:'40px',width:'40px',paddingLeft:'.5%'  }}
                  icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
               >
                  <p className="timeline-Card">
@@ -198,7 +198,7 @@ export default function Timeline8() {
                     color: 'black',
                     boxShadow: 'none',
                  }}
-                 iconStyle={{ background: 'var(--blue3)',boxShadow:'none',marginTop:'4%',height:'40px',width:'40px',paddingLeft:'.5%'  }}
+                 iconStyle={{ background: 'var(--blue3)',boxShadow:'none',marginTop:'8%',height:'40px',width:'40px',paddingLeft:'.5%'  }}
                  icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
                  position="left"
               >
