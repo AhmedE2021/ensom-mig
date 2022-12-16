@@ -4,13 +4,15 @@ export default function InitiativeItem({ initiative }) {
 
     return (
        <div className="initiative-card">
+         <div className="initiative-card-top">
           <a href={initiative.acf.website} target="_blank" rel="noreferrer">
-             <img
-                className="initiative-img"
+             <img className="initiative-img"
+                
                 src={initiative.acf.image}
                 alt={initiative.title.rendered}
              />
           </a>
+          </div>
           <div className="initiative-content">
              <p className="initiative-text" id="test" style={{ fontSize: 32 }}>
                 {' '}
