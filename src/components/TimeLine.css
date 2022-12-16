@@ -1,19 +1,19 @@
 /* Our CSS ------------------------- */
 
-#youCanHeader{
+#youCanHeader {
   padding-left: 1.2rem;
   padding-right: 1.2rem;
   margin: 2rem 0rem;
   text-align: center;
 }
 
-#TimelineComp{
+#TimelineComp {
   background-color: var(--blue3);
   margin-top: 10rem;
   padding-top: 5rem;
 }
 
-.vertical-timeline-element-content-arrow{
+.vertical-timeline-element-content-arrow {
   display: none;
 }
 
@@ -21,90 +21,100 @@
   color: red;
 }
 
+.timeline-Card {
+  font-size: clamp(1.25rem, 2vw, 2rem) !important;
+}
+
 /* Their CSS ------------------------------- */
 
 wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .timeline {
-    height: 300px;
-    width: 5px;
-    background-color: #e5e5e5;
-  }
-  
-  .stub1 {
-    line-height: 300px;
-    font-size: 24px;
-    background-color: #eae4e4;
-  }
-  
-  .stub2 {
-    height: 1000px;
-  }
-  
-  .circle {
-    width: 30px;
-    height: 30px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    border-radius: 50%;
-    background-color: #e5e5e5;
-  }
-  
-  .circleWrapper {
-    position: relative;
-  }
-  
-  .message {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    min-width: 150px;
-    font-weight: bold;
-  }
-  
-.timeline-blue-section{
-display: flex;
-flex-direction: column;
-color: #3488C1;
-text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.timeline-blue-section-text{
-margin: 0 10% 0 10%;
+.timeline {
+  height: 300px;
+  width: 5px;
+  background-color: #e5e5e5;
+}
+
+.stub1 {
+  line-height: 300px;
+  font-size: 24px;
+  background-color: #eae4e4;
+}
+
+.stub2 {
+  height: 1000px;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 50%;
+  background-color: #e5e5e5;
+}
+
+.circleWrapper {
+  position: relative;
+}
+
+.message {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  min-width: 150px;
+  font-weight: bold;
+}
+
+.timeline-blue-section {
+  display: flex;
+  flex-direction: column;
+  color: #3488C1;
+  text-align: center;
+}
+
+.timeline-blue-section-text {
+  margin: 0 10% 0 10%;
 }
 
 
 
-  .timeline-white-section{
-    display: flex;
-    flex-direction: column;
-    color: #3488C1;
-    text-align: center;
-  }
-  .timeline-white-section-header{
-   padding-top: 5%;
-  }
-  .timeline-white-section-text{
-    margin: 0 10% 0 10%;
-  }
+.timeline-white-section {
+  display: flex;
+  flex-direction: column;
+  color: #3488C1;
+  text-align: left;
+  
+}
+
+.timeline-white-section-header, .timeline-blue-section-header {
+  padding-top: 5%;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.timeline-white-section-text, .timeline-blue-section-text {
+  margin: 2rem;
+  text-align: left;
+}
 
 
-  @media only screen and (min-width: 1170px){
+@media only screen and (min-width: 1170px) {
 
-  .timeline-blue-section{
+  .timeline-blue-section {
     flex-direction: column-reverse;
     width: 50%;
     position: absolute;
     padding-top: 5%;
   }
 
-  .timeline-white-section{
+  .timeline-white-section {
     flex-direction: column-reverse;
     width: 50%;
     right: 0;
@@ -112,13 +122,23 @@ margin: 0 10% 0 10%;
     padding-top: 5%;
   }
 
-  .timeline-blue-section-header{
+  .timeline-blue-section-header {
     transform: rotate(-90deg);
     padding-right: 50%;
   }
-  .timeline-white-section-header{
+
+  .timeline-white-section-header {
     transform: rotate(90deg);
     padding-left: 50%;
   }
 
-  }
+}
+
+/* ultrawide */
+@media only screen and (min-width: 2000px) {
+  .timeline-white-section-header, .timeline-blue-section-header {
+  font-size: 8rem;
+}
+  
+
+}

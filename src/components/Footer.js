@@ -10,7 +10,9 @@ export default function Footer() {
                 <p>Alle presserelaterede spørgsmål og henvendelser</p>
                 <p>
                    vedrørende kampagnen bedes rettet til{' '}
-                   <span>laura.ensommig@gmail.com</span>
+                   <a href="mailto:laura.ensommig@gmail.com">
+                      <span>laura.ensommig@gmail.com</span>
+                   </a>
                 </p>
              </div>
              <div className="footer-icons">

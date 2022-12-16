@@ -34,12 +34,12 @@ export default function Campaignvideos () {
                     src="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/greendoll.png"
                     alt="manikkekenderandre"
                  />
-                 <div className="box2 box2-green"></div>
+                 {/* <div className="box2 box2-green"></div>
 
                  <div>
                     <div className="box1 box1-green"></div>
                     <div className="box2 box2-green"></div>
-                 </div>
+                 </div> */}
               </div>
            </div>
 
