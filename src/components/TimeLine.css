@@ -25,6 +25,7 @@
   font-size: clamp(1.25rem, 2vw, 2rem) !important;
 }
 
+
 /* Their CSS ------------------------------- */
 
 
@@ -180,4 +181,11 @@ text-align: center;
 }
   
 
+}
+
+@media screen and (min-width: 3400px) {
+  .timeline-blue-section-text, .timeline-white-section-text {
+    width: 50%;
+    margin: 0 auto;
+  }
 }

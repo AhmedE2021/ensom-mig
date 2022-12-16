@@ -36,3 +36,9 @@ text-align: center;
     font-family: 'La Belle Aurore', cursive;
 }
 
+@media screen and (min-width: 3400px) {
+    .Quote-explan{
+        max-width: 2800px;
+        margin: 8rem auto;
+    }
+}

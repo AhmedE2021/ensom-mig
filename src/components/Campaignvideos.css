@@ -1,13 +1,13 @@
-.campaign-page :is(p, h1, h2, .paper-dolls){
+.campaign-page :is(p, h1, h2, .paper-dolls) {
   padding: 0rem 4rem;
 }
 
-.campaign-video-text{
+.campaign-video-text {
   color: #fff;
-position: relative;
+  position: relative;
 }
 
-.banner-text{
+.banner-text {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,10 +21,12 @@ position: relative;
   height: clamp(5rem, 50vh, 40rem);
   color: white;
 }
-.banner-text span{
+
+.banner-text span {
   font-size: clamp(2rem, 3vw, 3rem);
 }
-.banner-text cite{
+
+.banner-text cite {
   position: absolute;
   bottom: 1rem;
   right: 1rem;
@@ -34,64 +36,68 @@ position: relative;
 
 
 
-.para-green{
+.para-green {
   background-image: url(http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Rectangle-57.png);
 }
 
-.para-yellow{
-background-image: url(http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Rectangle-58.png);
+.para-yellow {
+  background-image: url(http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Rectangle-58.png);
 
 
 }
 
-.para-purple{
-background-image: url(http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Group-18.png);
+.para-purple {
+  background-image: url(http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Group-18.png);
 
 }
 
-.campaign-videos{
+.campaign-videos {
   background-color: var(--background);
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 2px;
 }
-.campaign-video{
+
+.campaign-video {
   display: flex;
   flex-direction: column;
   margin-bottom: 4rem;
   position: relative;
 }
 
-.campaign-video-text__header{
+.campaign-video-text__header {
   margin-top: 2rem;
 }
+
 .campaign-video-text__description {
   margin-top: 2rem;
 }
 
-.campaign-video-doll{
+.campaign-video-doll {
   width: 20%;
-position: absolute;
-right: 15%;
-bottom: 35%;
-
+  position: absolute;
+  right: 15%;
+  bottom: 35%;
+  opacity: 0.5;
 }
 
 
-@media screen and (max-width: 600px){
-  .campaign-video-doll{
+@media screen and (max-width: 600px) {
+  .campaign-video-doll {
     bottom: 0;
   }
-  .para-yellow{
+
+  .para-yellow {
     height: 60vh;
   }
 }
 
 /* Video first on mobile */
-#second-video{
+#second-video {
   flex-direction: column-reverse;
 }
-#fourth-video{
+
+#fourth-video {
   flex-direction: column-reverse;
   padding-bottom: 5rem;
 }
@@ -99,18 +105,19 @@ bottom: 35%;
 
 
 
-.gradientTransition{
+.gradientTransition {
   height: 20vh;
   background: linear-gradient(180deg, #15161D 50%, #FFFFFF 88.99%);
 }
 
-@media screen and (max-width: 600px){
-  .gradientTransition{
+@media screen and (max-width: 600px) {
+  .gradientTransition {
     height: 10vh;
     margin-top: -1%;
   }
-  #fourth-video{
-    padding-bottom:0;
+
+  #fourth-video {
+    padding-bottom: 0;
   }
 }
 
@@ -118,34 +125,75 @@ bottom: 35%;
 
 
 
+* {
+  /* border: 1px solid green; */
+}
 
 
 
+@media screen and (min-width: 600px) {
 
-@media screen and (min-width: 600px){
   /* flex becomes grid at 600px */
-  .campaign-video{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      margin: 3rem 0;
-   
+  .campaign-video {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3rem 0;
+
   }
 
   /* Positioning of video text */
- 
-  .campaign-video-text{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
- 
+
+  .campaign-video-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
   }
-  #margin-bottom{
-      padding-bottom: 1rem;
+
+  #margin-bottom {
+    padding-bottom: 1rem;
   }
 
 
 }
 
+@media screen and (min-width: 1900px) {
 
- 
+  .campaign-video-text__header,
+  .campaign-video-text__description {
+    font-size: 5rem;
+  }
 
+  .campaign-video-doll {
+    width: 20%;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    opacity: 0.5;
+  }
+
+  .campaign-video {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3rem auto;
+
+  }
+}
+
+@media screen and (min-width: 2500px) {
+
+  .campaign-video {
+    display: grid;
+    grid-template-columns: 1250px 1250px;
+    width: fit-content;
+    margin: 0 auto;
+
+  }
+
+  .banner-text p{
+    font-size: 3rem !important;
+  }
+  .banner-text span {
+    font-size: 4rem !important;
+  }
+}

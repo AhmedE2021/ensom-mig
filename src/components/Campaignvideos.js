@@ -9,8 +9,8 @@ export default function Campaignvideos () {
            {/* Green */}
            <div className="campaign-video" id="first-video">
               <video
-                 width="750"
-                 height="400"
+               //   width="750"
+               //   height="400"
                  playsInline
                  poster="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/greencard.png"
                  controls
@@ -68,8 +68,8 @@ export default function Campaignvideos () {
                  <div className="box4 box4-blue"></div>
               </div>
               <video
-                 width="750"
-                 height="400"
+               //   width="750"
+               //   height="400"
                  playsInline
                  poster="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/bluecard.png"
                  controls
@@ -96,8 +96,8 @@ export default function Campaignvideos () {
            {/* Yellow */}
            <div className="campaign-video" id="third-video">
               <video
-                 width="750"
-                 height="400"
+               //   width="750"
+               //   height="400"
                  playsInline
                  poster="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/yellowcard.png"
                  controls
@@ -152,8 +152,8 @@ export default function Campaignvideos () {
                  <div className="box4 box4-purple"></div>
               </div>
               <video
-                 width="750"
-                 height="400"
+               //   width="750"
+               //   height="400"
                  playsInline
                  poster="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/purplecard.png"
                  controls

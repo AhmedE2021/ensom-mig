@@ -1,4 +1,4 @@
-.HomescreenComponent{
+.HomescreenComponent {
     background-color: var(--background);
 }
 
@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
 
-    
+
 }
 
 .HomescreenComponent :is(p, h1, h2) {
@@ -32,16 +32,16 @@
 
 /* Image with text ----------------------------------------*/
 
-.imgSection{
+.imgSection {
     position: relative;
     color: white;
     background-attachment: fixed;
 
     padding-bottom: 2rem;
-    
+
 }
 
-.cityIMG{
+.cityIMG {
     width: 100%;
     height: clamp(5rem, 40vh, 40rem);
     object-fit: cover;
@@ -53,14 +53,15 @@
     border: 1px solid red;
 } */
 
-.textContainer{
-   margin-bottom: 8rem;
+.textContainer {
+    margin-bottom: 16rem;
 }
 
 /* Font sizes */
-.textContainer h1{
+.textContainer h1 {
     font-size: clamp(3rem, 4vw, 4rem);
 }
+
 .textContainer p {
     font-size: clamp(1.25rem, 2vw, 2rem);
 }
@@ -68,7 +69,7 @@
 
 
 @media screen and (min-width: 600px) {
-    .textContainer{
+    .textContainer {
         width: min(70%, 1600px);
         margin-left: auto;
         margin-right: 10%;
@@ -76,3 +77,29 @@
 }
 
 
+@media screen and (min-width: 3400px) {
+    .textContainer {
+        width: min(70%, 1600px);
+        margin-left: auto;
+        margin-right: 10%;
+        /* margin-bottom: 5rem; */
+    }
+
+    .header {
+        font-size: 5rem !important;
+    }
+
+    .textContainer p {
+        font-size: 4rem;
+    }
+
+    .talkAbout {
+        font-size: 10rem;
+        color: white;
+    }
+
+    .loneliness {
+        font-size: 10rem;
+        color: white;
+    }
+}

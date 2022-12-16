@@ -21,7 +21,7 @@
 
 #contact-form textarea {
   min-height: 150px;
-  width: min(80%, 500px);
+  width: min(80%, 600px);
   resize: vertical;
   background-color: #FFF;
   background: #FEFBFC;
@@ -58,3 +58,4 @@
   width: 8rem;
   background-color: var(--blue);
 }
+
