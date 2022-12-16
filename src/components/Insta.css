@@ -59,12 +59,13 @@ display: grid;
 @media only screen and (max-width: 700px){
   .insta-videos{
     grid-template-columns: 1fr;
-   
+    grid-row-gap: 0;
+
   }
   .insta-vdieo{
-    height: 74%;
-border: #000 1px solid;
+    height: 82%;
 
+margin-bottom: -25%;
   }
   
 
