@@ -146,7 +146,7 @@ import {
                      color: 'black',
                      boxShadow: 'none',
                   }}
-                  iconStyle={{ background: 'var(--blue3)',boxShadow:'none',marginTop:'8%',height:'40px',width:'40px',paddingLeft:'.5%'  }}
+                  iconStyle={{ background: 'white',boxShadow:'none',marginTop:'8%',height:'40px',width:'40px',paddingLeft:'.5%'  }}
                   icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
                   
                   date=""
@@ -164,7 +164,7 @@ import {
                      color: 'black',
                      boxShadow: 'none',
                   }}
-                  iconStyle={{ background: 'var(--blue3)',boxShadow:'none',marginTop:'8%',height:'40px',width:'40px',paddingLeft:'.5%'  }}
+                  iconStyle={{ background: 'white',boxShadow:'none',marginTop:'8%',height:'40px',width:'40px',paddingLeft:'.5%'  }}
                 icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
                   position="left"
                >
@@ -182,7 +182,7 @@ import {
                      color: 'black',
                      boxShadow: 'none',
                   }}
-                  iconStyle={{ background: 'var(--blue3)',boxShadow:'none',marginTop:'8%',height:'40px',width:'40px',paddingLeft:'.5%'  }}
+                  iconStyle={{ background: 'white',boxShadow:'none',marginTop:'8%',height:'40px',width:'40px',paddingLeft:'.5%'  }}
                   icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
                >
                   <p className="timeline-Card">
@@ -198,7 +198,7 @@ import {
                      color: 'black',
                      boxShadow: 'none',
                   }}
-                  iconStyle={{ background: 'var(--blue3)',boxShadow:'none',marginTop:'8%',height:'40px',width:'40px',paddingLeft:'.5%'  }}
+                  iconStyle={{ background: 'white',boxShadow:'none',marginTop:'8%',height:'40px',width:'40px',paddingLeft:'.5%'  }}
                   icon={<img src='http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Vector-22.svg' alt="timeline-icon" />}
                   position="left"
                >
