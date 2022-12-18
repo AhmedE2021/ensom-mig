@@ -150,7 +150,11 @@ p {
   animation-direction:alternate;
   margin-top:-20%;
   z-index:1;
-  position:relative;   
+  position:relative;  
+  -webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-webkit-transform: translate3d(0, 0, 0);
+-moz-transform: translate3d(0, 0, 0); 
 }
 
 @keyframes box1 {
@@ -177,7 +181,11 @@ p {
   animation-direction:alternate;
   margin-top:-10%;
   z-index:1;
-  position:relative;   
+  position:relative;  
+  -webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-webkit-transform: translate3d(0, 0, 0);
+-moz-transform: translate3d(0, 0, 0); 
 }
 
 @keyframes box2 {
@@ -207,6 +215,10 @@ p {
   margin-top:-20%;
   z-index:1;
   position:relative;   
+  -webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-webkit-transform: translate3d(0, 0, 0);
+-moz-transform: translate3d(0, 0, 0);
 }
 
 @keyframes box3 {
@@ -236,6 +248,10 @@ p {
   margin-top:-10%;
   z-index:1;
   position:relative;   
+  -webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-webkit-transform: translate3d(0, 0, 0);
+-moz-transform: translate3d(0, 0, 0);
 }
 
 @keyframes box4 {
@@ -327,6 +343,11 @@ to {
   margin-top:5%;
   z-index:1;
   position:relative; 
+  -webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-webkit-transform: translate3d(0, 0, 0);
+-moz-transform: translate3d(0, 0, 0);
+
 }
 
 @keyframes hero_blob1_pink {
@@ -356,7 +377,11 @@ to {
       animation-direction:alternate;
       margin-top:13%;
       z-index:1;
-      position:relative;     
+      position:relative;   
+      -webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-webkit-transform: translate3d(0, 0, 0);
+-moz-transform: translate3d(0, 0, 0);  
 }
   
   @keyframes hero_blob2_green {
@@ -385,6 +410,10 @@ animation-iteration-count: infinite;
 filter: blur(60px);
 animation-direction:alternate;
 z-index:1;
+-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-webkit-transform: translate3d(0, 0, 0);
+-moz-transform: translate3d(0, 0, 0);
 }
 
 
@@ -413,6 +442,10 @@ animation-iteration-count: infinite;
 filter: blur(60px);
 animation-direction:alternate;
 z-index:1;
+-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-webkit-transform: translate3d(0, 0, 0);
+-moz-transform: translate3d(0, 0, 0);
 }
 
 
