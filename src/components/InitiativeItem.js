@@ -14,8 +14,8 @@ export default function InitiativeItem({ initiative }) {
           </a>
           </div>
           <div className="initiative-content">
-             <p className="initiative-text" id="test" style={{ fontSize: 32 }}>
-                {' '}
+             <p className="initiative-text" id="test">
+                
                 {parse(initiative.content.rendered)}
              </p>
              <p className="initiative-description">

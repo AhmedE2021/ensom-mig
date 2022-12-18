@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 import Campaignvideos from './components/Campaignvideos';
 import ContactForm from './components/ContactForm';
 import Insta from './components/Insta';
-import Parallax from './components/Parallax';
+
 import ArrowSVG from './components/ArrowSVG';
 
 

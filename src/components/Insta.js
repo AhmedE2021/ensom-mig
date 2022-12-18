@@ -19,7 +19,7 @@ export default function Insta () {
 
 <p>Har du lyst til at dele din historie og hjælpe os i kampen for at bryde tabuet?</p>
 
-<p>Besøg vores Instagram her.</p>
+<p>Besøg vores Instagram <a href="https://www.instagram.com/ensom_mig/?utm_source=ig_embed&ig_mid=905DF7B2-49A0-48ED-900B-0AF58CA61CA2" target="_blank" >her.</a></p>
 
  </div>
 
