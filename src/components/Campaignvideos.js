@@ -9,8 +9,8 @@ export default function Campaignvideos () {
            {/* Green */}
            <div className="campaign-video" id="first-video">
               <video
-               //   width="750"
-               //   height="400"
+                 //   width="750"
+                 //   height="400"
                  playsInline
                  poster="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/greencard.png"
                  controls
@@ -22,10 +22,10 @@ export default function Campaignvideos () {
               </video>
               <div className="campaign-video-text">
                  <h1 className="neon--green campaign-video-text__header">
-                    Ensomhed kan være når man ikke kender andre
+                    Alt var så anderledes end det, jeg kom fra
                  </h1>
                  <h1 className="green-gradient campaign-video-text__description">
-                    Alt var så anderledes end det, jeg kom fra
+                    Ensomhed kan være når man ikke kender andre
                  </h1>
 
                  <div className="box1 box1-green"></div>
@@ -34,9 +34,7 @@ export default function Campaignvideos () {
                     src="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/greendoll.png"
                     alt="manikkekenderandre"
                  />
-                  <div className="box2 box2-green"></div>
-
-
+                 <div className="box2 box2-green"></div>
               </div>
            </div>
 
@@ -47,17 +45,16 @@ export default function Campaignvideos () {
                  oplevet uoverensstemmelse mellem ønskede sociale relationer og
                  faktiske sociale relationer.
               </p>
-              
            </div>
 
            {/* Blue */}
            <div className="campaign-video" id="second-video">
               <div className="campaign-video-text">
                  <h1 className="neon--blue campaign-video-text__header">
-                    Ensomhed kan være når man er sammen med andre
+                    For det meste dukker følelsen op når jeg er sammen med andre
                  </h1>
                  <h1 className="blue-gradient campaign-video-text__description">
-                    For det meste dukker følelsen op når jeg er sammen med andre
+                    Ensomhed kan være når man er sammen med andre
                  </h1>
                  <div className="box3 box3-blue"></div>
                  <img
@@ -68,8 +65,8 @@ export default function Campaignvideos () {
                  <div className="box4 box4-blue"></div>
               </div>
               <video
-               //   width="750"
-               //   height="400"
+                 //   width="750"
+                 //   height="400"
                  playsInline
                  poster="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/bluecard.png"
                  controls
@@ -96,8 +93,8 @@ export default function Campaignvideos () {
            {/* Yellow */}
            <div className="campaign-video" id="third-video">
               <video
-               //   width="750"
-               //   height="400"
+                 //   width="750"
+                 //   height="400"
                  playsInline
                  poster="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/yellowcard.png"
                  controls
@@ -109,10 +106,10 @@ export default function Campaignvideos () {
               </video>
               <div className="campaign-video-text">
                  <h1 className="neon--yellow campaign-video-text__header">
-                    Ensomhed kan være når man ikke kender andre
+                    Mine tanker bliver så store, at jeg slet ikke kan rumme dem
                  </h1>
                  <h1 className="yellow-gradient campaign-video-text__description">
-                    Alt var så anderledes end det, jeg kom fra
+                    Ensomhed kan være når man ikke kender andre
                  </h1>
                  <div className="box1 box1-yellow"></div>
                  <img
@@ -128,7 +125,7 @@ export default function Campaignvideos () {
            <div className="banner-text para-purple">
               <p>
                  Ensomhed forekommer oftere blandt unge mennesker. Mere end
-                 <span className="labelle neon--white"> 20% </span> af de
+                 <span className="labelle neon--white"> 1 ud af 5 </span> af de
                  16-24-årige i Region Midtjylland følte sig ensomme i 2021.
               </p>
               <cite>DEFACTUM, Region Midtjylland 2022</cite>
@@ -152,8 +149,8 @@ export default function Campaignvideos () {
                  <div className="box4 box4-purple"></div>
               </div>
               <video
-               //   width="750"
-               //   height="400"
+                 //   width="750"
+                 //   height="400"
                  playsInline
                  poster="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/purplecard.png"
                  controls

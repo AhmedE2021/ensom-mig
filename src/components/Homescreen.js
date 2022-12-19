@@ -30,7 +30,7 @@ export default function Homescreen() {
 
            <div className={styles.textContainer}>
               <h1 className={`neon--green ${styles.header}`}>
-                 Hvorfor taler vi ikke om det?
+                 Hvorfor taler vi ikke om ensomhed?
               </h1>
               <p>
                  Det kan være svært at finde modet til at fortælle ens kæreste,
