@@ -23,12 +23,12 @@ export default function Footer() {
                 />
                 <img
                    className="footer-logo"
-                   src="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Aaarhus-Kommune-Logo.png"
+                   src="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Ensom-Mig-Logo.png"
                    alt="aarhus-kommune"
                 />
                 <img
                    className="footer-logo"
-                   src="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Ensom-Mig-Logo.png"
+                   src="http://quotes-api.talomensomhed.dk/wp-content/uploads/2022/12/Aaarhus-Kommune-Logo.png"
                    alt="ensom-mig"
                 />
              </div>

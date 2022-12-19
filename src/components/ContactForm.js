@@ -32,7 +32,7 @@ const ContactForm = () => {
 
     return (
         <div id="contact-form">
-            <p>Skriv dine tanker her</p>
+            <h3>Skriv dine tanker her</h3>
             <textarea placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
             <button onClick={submit}>Send</button>
             <span className={emailSent ? 'visible' : null}>Tak for din besked, vi vil gennemgå din besked og sende den på ingen tid!</span>

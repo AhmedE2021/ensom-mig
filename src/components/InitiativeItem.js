@@ -8,7 +8,7 @@ export default function InitiativeItem({ initiative }) {
           <a href={initiative.acf.website} target="_blank" rel="noreferrer">
              <img className="initiative-img"
                 
-                src={initiative.acf.image}
+                src={initiative.acf.image.url}
                 alt={initiative.title.rendered}
              />
           </a>
@@ -19,7 +19,7 @@ export default function InitiativeItem({ initiative }) {
                 {parse(initiative.content.rendered)}
              </p>
              <p className="initiative-description">
-                {parse(initiative.acf.Description)}
+                {parse(initiative.acf.description)}
              </p>
           </div>
        </div>
