@@ -10,20 +10,21 @@
 
 
 .initiatives-cards{
-  display: grid;
-  grid-template-columns: 291px;
-  gap: 2rem;
-  max-width: 1000px;
-  justify-content: center;
-  margin: 0 auto;
-  /* text-align: center; */
+  display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 0 auto;
+   
 }
 
 
 .initiative-card{
-   margin: 2% 0 0 0; 
-   display: flex; 
-  flex-direction: column;
+  flex: 0 28%;
+  margin: 5% ; 
+  display: flex; 
+ flex-direction: column;
+ filter: drop-shadow(0px 4px 25px #d9d9d9);
+ width: 150%;
   filter: drop-shadow(0px 4px 25px #d9d9d9);
 }
 
@@ -37,39 +38,65 @@
 
 .initiative-img{
 width: 100%;
-height: 10rem;
+height: 10em;
 object-fit:cover
 }
 
 .initiative-content{
 background-color: var(--blue2);
 color: white;
+height: 70%;
+padding: 4% 8% 0 8%;
 }
 
 .initiative-text{
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  text-align: left;
 
+  text-align: left;
   font-size: 2rem !important;
 }
 
 .initiative-description{
   font-size: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+
+  
 }
 
 @media screen and (min-width: 500px) {
-  .initiatives-cards{
-  grid-template-columns: 250px 250px;
-  justify-content: space-around;
-  /* max-width: 500px; */
-  }
 
   .initiative-description{
   min-height: 250px;
 }
 
+}
+
+@media screen and (max-width: 850px){
+  .initiative-card{
+    flex: 0 45%;
+  }
+}
+
+@media screen and (min-width: 850px){
+  .initiative-card{
+    flex: 0 30%;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .initiative-card{
+    flex: 0 48%;
+  }
+}
+@media screen and (max-width: 500px){
+  .initiative-card{
+    flex: 0 85%;
+  }
+}
+
+@media screen and (min-width: 1400px){
+  /* .initiative-img{
+    height: 15rem;
+  } */
+  .initiative-card{
+    flex: 0 25%;
+  }
 }
